@@ -9,8 +9,8 @@ const Work = () => {
     setToggle(toggle === null ? getId : null);
   };
 
-  let red = "ff1f25";
-  let blue = "005cef";
+  let red = "#ff1f25";
+  let blue = "#005cef";
 
   return (
     <div className="flex justify-center items-center w-screen ">
@@ -31,14 +31,14 @@ const Work = () => {
               >
                 <div className="flex flex-col justify-center relative h-[200px]">
                   <h1
-                    className={`text-[#${
+                    className={`text-[${
                       toggle == dataItems.id ? blue : red
                     }] text-2xl font-semibold transition-colors delay-25 ease-linear`}
                   >
                     {dataItems.motto}
                   </h1>
                   <h1
-                    className={`text-[#${
+                    className={`text-[${
                       toggle == dataItems.id ? blue : red
                     }] text-7xl font-bold transition-colors delay-25 ease-linear`}
                   >
