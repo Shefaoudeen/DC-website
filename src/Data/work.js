@@ -1,7 +1,7 @@
 const work = [
   {
     id: 1,
-    division: "DC PRIME",
+    division: "PRIME",
     description1:
       "Welcome  to PRIME! We specialize in crafting compelling visuals using adobe photoshop and illustrator. With projects like ",
     works: "REJOUIR, NEURA, MAGAZINES and UNIVERSITY CALENDERS",
@@ -11,7 +11,7 @@ const work = [
   },
   {
     id: 2,
-    division: "DC VIDEO",
+    division: "VIDEO",
     description1:
       "Welcome  to VIDEO! where we harness After Effects, Premiere Pro, Blender, Da Vinci Resolve, Izotope and More! Past projects feature ",
     works: "UNIVERSITY INTRO, SYMPOSIUM TRAILERS and BEYOND",
@@ -20,7 +20,7 @@ const work = [
   },
   {
     id: 3,
-    division: "DC DEVELOPMENT",
+    division: "DEVELOPMENT",
     description1: "Welcome  to PRIME! We create and maintain ",
     works: "UNIVERSITY WEBSITE and PORTFOLIOS ",
     description2:
