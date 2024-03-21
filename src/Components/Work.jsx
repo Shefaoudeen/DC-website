@@ -32,14 +32,14 @@ const Work = () => {
                 <div className="flex flex-col justify-center relative h-[200px]">
                   <h1
                     className={`text-[${
-                      toggle == dataItems.id ? blue : red
+                      toggle == dataItems.id ? blue : "#ff1f25"
                     }] text-2xl font-semibold transition-colors delay-25 ease-linear`}
                   >
                     {dataItems.motto}
                   </h1>
                   <h1
                     className={`text-[${
-                      toggle == dataItems.id ? blue : red
+                      toggle == dataItems.id ? blue : "#ff1f25"
                     }] text-7xl font-bold transition-colors delay-25 ease-linear`}
                   >
                     {dataItems.division}
