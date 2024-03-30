@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Arrow from "./Arrow";
 import { work } from "../Data/work";
-import { luffy } from "../assets";
+import { luffy, zoro } from "../assets";
 
 const Work = () => {
   const [toggle, setToggle] = useState(null);
@@ -79,7 +79,7 @@ const Work = () => {
                     </h1>
                   </div>
                   <div
-                    className={`absoulte w-[50px] h-[100px] absolute max-sm:right-0 flex justify-center items-center  right-2 `}
+                    className={`absoulte w-[50px] h-[100px] absolute max-sm:right-0 flex justify-center items-center  right-2`}
                   >
                     <Arrow />
                   </div>
@@ -90,7 +90,7 @@ const Work = () => {
                         <div className="h-[600px] max-lg:h-[700px] flex max-lg:flex-col bg-[#ff1f25] transition-all delay-300 ease-linear">
                           <div className="w-1/2 max-lg:w-full max-lg:h-[40%] h-full bg-[#005cef]">
                             <img
-                              src={luffy}
+                              src={dataItems.video}
                               className="w-full h-full object-cover"
                             />
                           </div>

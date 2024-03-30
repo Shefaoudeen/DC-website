@@ -1,3 +1,5 @@
+import { luffy, zoro, sanji } from "../assets";
+
 const work = [
   {
     id: 1,
@@ -8,6 +10,7 @@ const work = [
     description2:
       ", our goals is to leave a everlasting impression with powerful designs",
     motto: "Innovate, Create, Design!",
+    video: luffy,
   },
   {
     id: 2,
@@ -17,6 +20,7 @@ const work = [
     works: "UNIVERSITY INTRO, SYMPOSIUM TRAILERS and BEYOND",
     description2: ". Let's craft cinematic experiences together",
     motto: "Lights, Camera, Edit!",
+    video: zoro,
   },
   {
     id: 3,
@@ -26,6 +30,7 @@ const work = [
     description2:
       ", with technologies like REACT, NODE AND VARIOUS JAVASCRIPT FRAMEWORKS. From concept to execution, Let's collaborate to realize your digital vision!",
     motto: "Coding Dreams into Reality!",
+    video: sanji,
   },
 ];
 
