@@ -74,7 +74,7 @@ const Work = () => {
                     <h1
                       className={`text-[${checkColor2(
                         dataItems.id
-                      )}] text-7xl font-bold transition-colors delay-5 ease-linear max-sm:text-5xl`}
+                      )}] text-7xl font-bold transition-colors delay-5 ease-linear max-sm:text-4xl`}
                     >
                       {dataItems.division}
                     </h1>
