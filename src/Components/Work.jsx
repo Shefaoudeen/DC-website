@@ -46,7 +46,7 @@ const Work = () => {
   };
 
   return (
-    <div className="flex justify-center items-center w-screen ">
+    <div className="flex justify-center items-center w-full ">
       <div className="flex flex-col justify-center items-center w-[100%]">
         <div className="flex flex-col justify-center w-[80%] h-[150px] border-b-[10px] border-[#005cef] max-sm:w-[90%]">
           <h1 className="text-start text-[#005cef] text-8xl font-bold max-sm:text-7xl">
