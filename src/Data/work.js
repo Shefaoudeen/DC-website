@@ -11,6 +11,7 @@ const work = [
       ", our goals is to leave a everlasting impression with powerful designs",
     motto: "Innovate, Create, Design!",
     video: luffy,
+    link: "/prime",
   },
   {
     id: 2,
@@ -21,6 +22,7 @@ const work = [
     description2: ". Let's craft cinematic experiences together",
     motto: "Lights, Camera, Edit!",
     video: zoro,
+    link: "/video",
   },
   {
     id: 3,
@@ -31,6 +33,7 @@ const work = [
       ", with technologies like REACT, NODE AND VARIOUS JAVASCRIPT FRAMEWORKS. From concept to execution, Let's collaborate to realize your digital vision!",
     motto: "Coding Dreams into Reality!",
     video: sanji,
+    link: "/development",
   },
 ];
 

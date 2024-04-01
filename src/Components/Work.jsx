@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
+
 import React, { useState } from "react";
 import Arrow from "./Arrow";
 import { work } from "../Data/work";
-import { luffy, zoro } from "../assets";
 
 const Work = () => {
   const [toggle, setToggle] = useState(null);
@@ -79,7 +80,7 @@ const Work = () => {
                     </h1>
                   </div>
                   <div
-                    className={`absoulte w-[50px] h-[100px] absolute max-sm:right-0 flex justify-center items-center  right-2`}
+                    className={`absoulte w-[50px] h-[100px] absolute max-sm:right-0 flex justify-center items-center  right-2 max-sm:scale-[80%]`}
                   >
                     <Arrow />
                   </div>
@@ -107,9 +108,11 @@ const Work = () => {
                                 <span>{dataItems.description2}</span>
                               </div>
                               <div className="flex justify-start w-[80%] relative">
-                                <div className="bg-yellow-400 w-[175px] justify-start z-10 px-6 py-4 font-bold text-xl hover:translate-x-3 hover:-translate-y-3 transition-all delay-100 ease-linear">
-                                  View Project
-                                </div>
+                                <Link to={dataItems.link} className="z-10">
+                                  <div className="bg-yellow-400 w-[175px] justify-start z-10 px-6 py-4 font-bold text-xl hover:translate-x-3 hover:-translate-y-3 transition-all delay-100 ease-linear">
+                                    View Project
+                                  </div>
+                                </Link>
                                 <div className="bg-yellow-600 h-full w-[175px] absolute"></div>
                               </div>
                             </div>
