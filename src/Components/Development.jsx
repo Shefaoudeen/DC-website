@@ -1,7 +1,11 @@
 import React from "react";
 import Arrow from "./Arrow";
+import { Link } from "react-router-dom";
 
 const Development = () => {
+  let blue = "#005cef";
+  let red = "#f43f5e";
+
   return (
     <div>
       <div className="flex justify-center">
@@ -20,10 +24,12 @@ const Development = () => {
       <div className="flex justify-center">
         <div className="w-[80%]">
           <div className="py-10">
-            <h1 className="text-[#f43f5e] font-bold text-4xl">About Project</h1>
+            <h1 className={`text-[${red}] font-bold text-4xl`}>
+              About Project
+            </h1>
           </div>
-          <div className="flex w-[100%] text-xl">
-            <div className="w-2/5">
+          <div className="flex w-[100%] max-md:flex-col text-xl">
+            <div className="w-2/5 max-md:w-full">
               <div className="text-gray-600">
                 <h1>
                   <span className="text-black font-medium">Client: </span>
@@ -45,7 +51,7 @@ const Development = () => {
                 </h1>
               </div>
             </div>
-            <div className="w-3/5">
+            <div className="w-3/5 max-md:w-full">
               <div className="m-4">
                 <h1 className="text-gray-600">
                   The bi-product of a brief to build a showreel, a set of idents
@@ -62,71 +68,60 @@ const Development = () => {
       <div className="flex justify-center">
         <div className="w-[80%]">
           <div className="py-10">
-            <h1 className="text-[#f43f5e] font-bold text-4xl">Brief</h1>
+            <h1 className={`text-[${red}] font-bold text-4xl`}>Brief</h1>
           </div>
-          <div className="flex w-[100%] text-xl">
-            <div className="w-1/2">
-              <div className="m-4">
-                <h1 className="text-gray-600">
-                  And so it began. Since we have a larger task of building the
-                  showreel itself, we split our 3D team to focus on the idents,
-                  whilst the 2D team began building the larger reel. With such a
-                  clean slate,
-                </h1>
-              </div>
-            </div>
-            <div className="w-1/2">
-              <div className="m-4">
-                <h1 className="text-gray-600">
-                  we made sure to spend time iterating on multiple potential
-                  routes. The core approach was to build 5 different visual
-                  snippets, each showcasing the hero MakeReign logo mark in
-                  unique vignettes.
-                </h1>
-              </div>
-            </div>
+          <div className="flex w-[100%] text-xl max-md:flex-col md:gap-10 text-justify">
+            <span className="text-gray-600 w-1/2 max-md:w-full">
+              And so it began. Since we have a larger task of building the
+              showreel itself, we split our 3D team to focus on the idents,
+              whilst the 2D team began building the larger reel. With such a
+              clean slate,
+            </span>
+            <span className="text-gray-600 w-1/2 max-md:w-full">
+              we made sure to spend time iterating on multiple potential routes.
+              The core approach was to build 5 different visual snippets, each
+              showcasing the hero MakeReign logo mark in unique vignettes.
+            </span>
           </div>
         </div>
       </div>
       <div className="flex justify-center">
         <div className="w-[80%]">
           <div className="py-10">
-            <h1 className="text-[#f43f5e] font-bold text-4xl">Process</h1>
+            <h1 className={`text-[${red}] font-bold text-4xl`}>Process</h1>
           </div>
-          <div className="flex w-[100%] text-xl">
-            <div className="w-1/2">
-              <div className="m-4">
-                <h1 className="text-gray-600">
-                  Working with Houdini, Redshift, and Cinema4D, we built growth,
-                  smoke, collision, and inflation systems. Each of these were
-                  tweaked and refined through iteration to finally get to a
-                  fidelity we were all
-                </h1>
-              </div>
-            </div>
-            <div className="w-1/2">
-              <div className="m-4">
-                <h1 className="text-gray-600">
-                  happy with. A timely exercise, but a super insightful one.
-                  Strangely, one of the most difficult tasks was getting a laser
-                  projection to feel right. It's the easiest stuff that
-                  sometimes hurts the most.
-                </h1>
-              </div>
-            </div>
+          <div className="flex w-[100%] text-xl max-md:flex-col text-justify">
+            <span className="text-gray-600 w-1/2 max-md:w-full">
+              Working with Houdini, Redshift, and Cinema4D, we built growth,
+              smoke, collision, and inflation systems. Each of these were
+              tweaked and refined through iteration to finally get to a fidelity
+              we were all
+            </span>
+
+            <span className="text-gray-600 w-1/2 max-md:w-full ">
+              happy with. A timely exercise, but a super insightful one.
+              Strangely, one of the most difficult tasks was getting a laser
+              projection to feel right. It's the easiest stuff that sometimes
+              hurts the most.
+            </span>
           </div>
         </div>
       </div>
       <div className="flex justify-center py-10">
-        <div className="w-[80%] flex justify-between">
+        <div className="w-[80%] flex justify-between items-center">
           <div>
-            <h1 className="text-6xl font-bold text-[#005cef]">
+            <h1 className={`text-6xl font-bold text-[${blue}]`}>
               Other Divisions
             </h1>
           </div>
-          <div className="rotate-[270deg]">
-            <Arrow />
-          </div>
+          <Link
+            to="/"
+            className="cursor-pointer hover:translate-x-10 delay-100 transition-all ease-linear"
+          >
+            <div className="rotate-[270deg] mx-[100px] ">
+              <Arrow />
+            </div>
+          </Link>
         </div>
       </div>
     </div>
