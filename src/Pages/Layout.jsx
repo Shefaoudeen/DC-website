@@ -1,8 +1,8 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
-import Hamburger from "../Components/Hamburger";
+import Work from "../Components/Work";
+import { Outlet } from "react-router-dom";
 
 const Layout = () => {
   return (

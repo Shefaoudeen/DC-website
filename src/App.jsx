@@ -4,14 +4,16 @@ import Prime from "./Components/Prime";
 import Video from "./Components/Video";
 import Development from "./Components/Development";
 import Layout from "./Pages/Layout";
+import ScrollToTop from "./Components/ScrollToTop";
 
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Work />} />
-          <Route path="prime" element={<Prime />} />
+          <Route path="/prime" element={<Prime />} />
           <Route path="video" element={<Video />} />
           <Route path="development" element={<Development />} />
         </Route>
