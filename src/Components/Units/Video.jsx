@@ -1,8 +1,8 @@
 import React from "react";
-import Arrow from "./Arrow";
+import Arrow from "../Arrow";
 import { Link } from "react-router-dom";
 
-const Development = () => {
+const Video = () => {
   let blue = "#005cef";
   let red = "#f43f5e";
 
@@ -14,9 +14,9 @@ const Development = () => {
             <Arrow />
           </div>
           <div>
-            <h1 className="text-8xl font-bold">DC DEVELOPMENT</h1>
+            <h1 className="text-8xl font-bold">DC VIDEO</h1>
             <h1 className="text-xl font-medium text-gray-400 tracking-widest">
-              Coding Dreams into Reality!
+              Lights, Camera, Edit!
             </h1>
           </div>
         </div>
@@ -90,7 +90,7 @@ const Development = () => {
           <div className="py-10">
             <h1 className={`text-[${red}] font-bold text-4xl`}>Process</h1>
           </div>
-          <div className="flex w-[100%] text-xl max-md:flex-col text-justify">
+          <div className="flex w-[100%] text-xl max-md:flex-col text-justify gap-10">
             <span className="text-gray-600 w-1/2 max-md:w-full">
               Working with Houdini, Redshift, and Cinema4D, we built growth,
               smoke, collision, and inflation systems. Each of these were
@@ -128,4 +128,4 @@ const Development = () => {
   );
 };
 
-export default Development;
+export default Video;

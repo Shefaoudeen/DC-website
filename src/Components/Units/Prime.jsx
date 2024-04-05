@@ -1,8 +1,8 @@
 import React from "react";
-import Arrow from "./Arrow";
+import Arrow from "../Arrow";
 import { Link } from "react-router-dom";
 
-const Video = () => {
+const Prime = () => {
   let blue = "#005cef";
   let red = "#f43f5e";
 
@@ -10,19 +10,21 @@ const Video = () => {
     <div>
       <div className="flex justify-center">
         <div className="w-[80%]">
-          <div className="scale-[60%] w-min">
-            <Arrow />
-          </div>
+          <a href="#about">
+            <div className="scale-[60%] w-min">
+              <Arrow />
+            </div>
+          </a>
           <div>
-            <h1 className="text-8xl font-bold">DC VIDEO</h1>
+            <h1 className="text-8xl font-bold">DC PRIME</h1>
             <h1 className="text-xl font-medium text-gray-400 tracking-widest">
-              Lights, Camera, Edit!
+              Innovate, Create, Design!
             </h1>
           </div>
         </div>
       </div>
       <div className="flex justify-center">
-        <div className="w-[80%]">
+        <div className="w-[80%]" id="about">
           <div className="py-10">
             <h1 className={`text-[${red}] font-bold text-4xl`}>
               About Project
@@ -108,7 +110,7 @@ const Video = () => {
         </div>
       </div>
       <div className="flex justify-center py-10">
-        <div className="w-[80%] flex justify-between items-center">
+        <div className="w-[80%] flex justify-between">
           <div>
             <h1 className={`text-6xl font-bold text-[${blue}]`}>
               Other Divisions
@@ -128,4 +130,4 @@ const Video = () => {
   );
 };
 
-export default Video;
+export default Prime;

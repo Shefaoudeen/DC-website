@@ -1,8 +1,8 @@
 import React from "react";
-import Arrow from "./Arrow";
+import Arrow from "../Arrow";
 import { Link } from "react-router-dom";
 
-const Prime = () => {
+const Development = () => {
   let blue = "#005cef";
   let red = "#f43f5e";
 
@@ -10,21 +10,19 @@ const Prime = () => {
     <div>
       <div className="flex justify-center">
         <div className="w-[80%]">
-          <a href="#about">
-            <div className="scale-[60%] w-min">
-              <Arrow />
-            </div>
-          </a>
+          <div className="scale-[60%] w-min">
+            <Arrow />
+          </div>
           <div>
-            <h1 className="text-8xl font-bold">DC PRIME</h1>
+            <h1 className="text-8xl font-bold">DC DEVELOPMENT</h1>
             <h1 className="text-xl font-medium text-gray-400 tracking-widest">
-              Innovate, Create, Design!
+              Coding Dreams into Reality!
             </h1>
           </div>
         </div>
       </div>
       <div className="flex justify-center">
-        <div className="w-[80%]" id="about">
+        <div className="w-[80%]">
           <div className="py-10">
             <h1 className={`text-[${red}] font-bold text-4xl`}>
               About Project
@@ -92,7 +90,7 @@ const Prime = () => {
           <div className="py-10">
             <h1 className={`text-[${red}] font-bold text-4xl`}>Process</h1>
           </div>
-          <div className="flex w-[100%] text-xl max-md:flex-col text-justify gap-10">
+          <div className="flex w-[100%] text-xl max-md:flex-col text-justify">
             <span className="text-gray-600 w-1/2 max-md:w-full">
               Working with Houdini, Redshift, and Cinema4D, we built growth,
               smoke, collision, and inflation systems. Each of these were
@@ -110,7 +108,7 @@ const Prime = () => {
         </div>
       </div>
       <div className="flex justify-center py-10">
-        <div className="w-[80%] flex justify-between">
+        <div className="w-[80%] flex justify-between items-center">
           <div>
             <h1 className={`text-6xl font-bold text-[${blue}]`}>
               Other Divisions
@@ -130,4 +128,4 @@ const Prime = () => {
   );
 };
 
-export default Prime;
+export default Development;

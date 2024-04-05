@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Arrow from "./Arrow";
 import { work } from "../Data/work";
 
-const Work = () => {
+const Units = () => {
   const [toggle, setToggle] = useState(null);
   const [enableMultiSelection, setEnableMulitSelection] = useState(true);
   const [multiple, setMultiple] = useState([]);
@@ -50,7 +50,7 @@ const Work = () => {
       <div className="flex flex-col justify-center items-center w-[100%]">
         <div className="flex flex-col justify-center w-[80%] h-[150px] border-b-[10px] border-[#005cef] max-sm:w-[90%]">
           <h1 className="text-start text-[#005cef] text-8xl font-bold max-sm:text-7xl">
-            Our Work.
+            Our Units.
           </h1>
         </div>
         {/* For Desktop */}
@@ -170,4 +170,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Units;
