@@ -5,6 +5,7 @@ import Development from "./Components/Units/Development";
 import Layout from "./Pages/Layout";
 import ScrollToTop from "./Components/ScrollToTop";
 import Homepage from "./Pages/Homepage";
+import Units from "./Components/Units";
 
 export default function App() {
   return (
@@ -13,9 +14,10 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Homepage />} />
+          <Route path="/units" element={<Units />} />
           <Route path="/prime" element={<Prime />} />
-          <Route path="video" element={<Video />} />
-          <Route path="development" element={<Development />} />
+          <Route path="/video" element={<Video />} />
+          <Route path="/development" element={<Development />} />
         </Route>
       </Routes>
     </BrowserRouter>

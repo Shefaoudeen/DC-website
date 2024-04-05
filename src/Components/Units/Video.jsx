@@ -10,9 +10,11 @@ const Video = () => {
     <div>
       <div className="flex justify-center">
         <div className="w-[80%]">
-          <div className="scale-[60%] w-min">
-            <Arrow />
-          </div>
+          <a href="#about">
+            <div className="scale-[60%] w-min hover:translate-y-5 delay-100 transition-all ease-linear">
+              <Arrow />
+            </div>
+          </a>
           <div>
             <h1 className="text-8xl font-bold">DC VIDEO</h1>
             <h1 className="text-xl font-medium text-gray-400 tracking-widest">
@@ -23,7 +25,7 @@ const Video = () => {
       </div>
       <div className="flex justify-center">
         <div className="w-[80%]">
-          <div className="py-10">
+          <div className="py-10" id="about">
             <h1 className={`text-[${red}] font-bold text-4xl`}>
               About Project
             </h1>
@@ -107,22 +109,23 @@ const Video = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center py-10">
-        <div className="w-[80%] flex justify-between items-center">
-          <div>
-            <h1 className={`text-6xl font-bold text-[${blue}]`}>
-              Other Divisions
-            </h1>
-          </div>
-          <Link
-            to="/"
-            className="cursor-pointer hover:translate-x-10 delay-100 transition-all ease-linear"
-          >
-            <div className="rotate-[270deg] mx-[100px] ">
+      <div className="flex justify-center py-10 ">
+        <Link
+          to="/units"
+          className="flex justify-center items-center group  w-full"
+        >
+          <div className="w-[80%] flex justify-between items-center cursor-pointer">
+            <div>
+              <h1 className={`text-6xl font-bold text-[${blue}]`}>
+                Other Units
+              </h1>
+            </div>
+
+            <div className="rotate-[270deg] md:mx-[100px] group-hover:translate-x-10 delay-100 transition-all ease-linear">
               <Arrow />
             </div>
-          </Link>
-        </div>
+          </div>
+        </Link>
       </div>
     </div>
   );
