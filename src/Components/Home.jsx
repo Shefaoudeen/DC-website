@@ -1,9 +1,19 @@
 import React from "react";
+import "./Home.css";
 
 const Home = () => {
   return (
-    <div className="w-full h-screen flex justify-center items-center border-2 border-black max-sm:text-6xl">
-      <h1 className="text-8xl font-bold">HOME</h1>
+    <div className="w-full h-screen flex justify-center items-start border-2 border-black max-sm:text-6xl">
+      <section className="hero">
+        <img src="src\assets\home_square_pole.svg" alt="" className="square" />
+        <div className="wrapper">
+          <h1 className="hero-title">
+            Hey,&nbsp;
+            <br />
+            We’re DC!
+          </h1>
+        </div>
+      </section>
     </div>
   );
 };

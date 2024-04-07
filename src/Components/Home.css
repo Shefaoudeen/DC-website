@@ -1,0 +1,41 @@
+.square {
+  z-index: 800;
+  width: 1600px;
+  max-width: none;
+  display: block;
+  position: absolute;
+  left: 35%;
+}
+
+.hero {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.wrapper {
+  z-index: 900;
+  width: 85%;
+  max-width: 1980px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.hero-title {
+  color: var(--black);
+  letter-spacing: -8px;
+  font-family: NeueHaasGroteskBold, sans-serif;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: NeueHaasGroteskMedium, sans-serif;
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 44px;
+}
