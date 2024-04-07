@@ -4,9 +4,12 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div className="w-full h-screen flex justify-center overflow-x-clip items-start border-2 border-black max-sm:text-6xl">
+    <div
+      className="w-full h-screen flex justify-center overflow-x-clip items-start border-2 border-black max-sm:text-6xl"
+      style={{ userSelect: "none" }}
+    >
       <section className="hero ">
-        <div id="anim-mask" className="">
+        <div id="anim-mask" className="ease-in-out">
           <img
             src={HomeImage}
             alt=""
