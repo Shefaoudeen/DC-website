@@ -8,11 +8,20 @@
     <style>
       html {
         scroll-behavior: smooth;
+        overflow-x: hidden;
       }
     </style>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      window.onscroll = function () {
+        var title = this.document.getElementById("anim-mask");
+        var scrollTop = document.documentElement.scrollTop * 0.5;
+        title.style.transform =
+          "translateX(" + scrollTop + "px) translateY(" + scrollTop + "px)";
+      };
+    </script>
   </body>
 </html>
