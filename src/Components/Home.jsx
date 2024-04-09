@@ -16,10 +16,10 @@ const Home = () => {
               <img
                 src={HomeImage}
                 alt=""
-                className="square max-md:scale-75 max-md:-translate-x-[300px] max-md:-translate-y-[100px]"
+                className="square z-10 max-md:scale-75 max-md:-translate-x-[300px] max-md:-translate-y-[100px]"
               />
             </div>
-            <div className="wrapper">
+            <div className="wrapper z-15">
               <h1 className="hero-title">
                 Design&nbsp;
                 <br />

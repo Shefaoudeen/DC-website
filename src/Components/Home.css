@@ -1,5 +1,4 @@
 .square {
-  z-index: 800;
   width: 1600px;
   max-width: none;
   display: block;
@@ -23,7 +22,6 @@
 }
 
 .wrapper {
-  z-index: 900;
   width: 85%;
   max-width: 1980px;
   margin-left: auto;
@@ -47,7 +45,4 @@ h1 {
   font-size: 38px;
   font-weight: 500;
   line-height: 35px;
-}
-
-.about-down-arrow :hover {
 }

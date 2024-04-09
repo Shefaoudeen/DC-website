@@ -3,5 +3,6 @@ import zoro from "./zoro.gif";
 import sanji from "./sanji.gif";
 import HomeImage from "./home_square_pole.svg";
 import DownArrow from "./arrow-blue-long.svg";
+import VideoForBox from "./video-box.mp4";
 
-export { luffy, zoro, sanji, HomeImage, DownArrow };
+export { luffy, zoro, sanji, HomeImage, DownArrow, VideoForBox };

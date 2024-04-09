@@ -1,9 +1,18 @@
 import React from "react";
+import { VideoForBox } from "../assets/index";
 
 const VideoBox = () => {
   return (
-    <div className="w-full h-screen flex justify-center text-center items-center border-2 border-black max-sm:text-6xl">
-      <h1 className="text-8xl font-bold">VIDEO BOX</h1>
+    <div className="w-full h-screen flex justify-center items-center pb-10">
+      <video
+        className="w-full h-full object-cover z-30"
+        playsInline
+        autoPlay
+        muted
+        loop
+      >
+        <source src={VideoForBox} type="video/mp4" />
+      </video>
     </div>
   );
 };
