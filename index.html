@@ -21,6 +21,12 @@
         var scrollTop = document.documentElement.scrollTop * 0.5;
         title.style.transform =
           "translateX(" + scrollTop + "px) translateY(" + scrollTop + "px)";
+        console.log(scrollTop);
+        var circleAnimation = this.document.getElementById("circle");
+        if (scrollTop > 1500) {
+          let movement = scrollTop - 1500;
+          circleAnimation.style.transform = "translateX(" + movement + "px)";
+        }
       };
     </script>
   </body>
