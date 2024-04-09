@@ -19,7 +19,7 @@ const Home = () => {
                 className="square z-10 max-md:scale-75 max-md:-translate-x-[300px] max-md:-translate-y-[100px]"
               />
             </div>
-            <div className="wrapper z-15">
+            <div className="wrapper z-50">
               <h1 className="hero-title">
                 Design&nbsp;
                 <br />
@@ -27,11 +27,11 @@ const Home = () => {
               </h1>
             </div>
             <div className="absolute left-6 mt-10 ml-2 mb-2">
-              <Link to="/about" className="about-link">
+              <Link to="" className="">
                 <img
                   src={DownArrow}
                   alt=""
-                  className="about-down-arrow w-10 transition-transform hover:translate-y-5"
+                  className="w-10 transition-transform hover:translate-y-5"
                 />
               </Link>
             </div>
