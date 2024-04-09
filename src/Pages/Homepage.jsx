@@ -10,7 +10,6 @@ const Homepage = () => {
   return (
     <>
       <Home />
-      <About />
       <VideoBox />
       <Units />
       <Works />
