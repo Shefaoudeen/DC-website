@@ -4,7 +4,7 @@ import { UpArrow } from "../assets/index";
 
 const Footer = () => {
   return (
-    <div className="bg-[#005cef] w-full flex justify-center items-center   h-screen">
+    <div className="bg-[#005cef] w-full flex justify-center items-center h-screen">
       <div className="flex flex-col justify-start w-[80%] max-sm:w-[90%]">
         <div className="flex flex-col justify-center w-full h-[150px] border-b-[10px] border-[white] max-sm:w-[90%] z-20">
           <h1 className="text-start text-8xl font-bold text-[white] max-md:text-6xl">
