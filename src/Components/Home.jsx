@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { HomeImage, DownArrow } from "../assets/index";
-import "./Home.css";
+import "./styles.css";
 import About from "./About";
 import Arrow from "./Arrow";
 

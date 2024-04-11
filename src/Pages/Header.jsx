@@ -8,10 +8,11 @@ const Header = () => {
         <div>DC</div>
         <div className="flex w-[25%] justify-around">
           <div className="flex w-[100%] justify-around max-md:hidden">
-            <div>Home</div>
-            <div>Work</div>
-            <div>Shop</div>
-            <div>Contact</div>
+            <div>Units</div>
+            <div>Works</div>
+            {/*<div>Hall of Fame</div>*/}
+            {/*<div>Upcoming Events</div>*/}
+            <div>Follow us</div>
           </div>
           <div className="md:hidden">
             <Hamburger />

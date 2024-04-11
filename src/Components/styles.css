@@ -46,3 +46,9 @@ h1 {
   font-weight: 500;
   line-height: 35px;
 }
+
+.works-hover:hover {
+  color: white;
+  transition: 500ms;
+  cursor: pointer;
+}

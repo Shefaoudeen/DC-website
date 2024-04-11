@@ -4,8 +4,8 @@ const About = () => {
   return (
     <div className="bg-[#005cef] w-full h-screen flex justify-center items-center max-sm:text-6xl">
       <div className="flex flex-col justify-center w-[80%] max-sm:w-[90%] z-20">
-        <h1 className="text-[#01255e] text-8xl font-bold">Who we are?</h1>
-        <h1 className="text-[white] text-6xl font-bold pt-10">
+        <h1 className="text-[#0148b9] text-8xl font-bold">Who we are?</h1>
+        <h1 className="text-[white] text-6xl font-bold pt-5">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices
           et leo sit amet blandit. Nullam dictum feugiat tortor non convallis.
           Donec sollicitudin commodo mauris, a porta orci gravida ut.
