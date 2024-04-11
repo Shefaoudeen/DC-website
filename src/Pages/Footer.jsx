@@ -40,8 +40,8 @@ const Footer = () => {
         className="absolute w-full h-screen z-10 overflow-y-clip"
         id="circle"
       >
-        <div className="absolute h-screen w-[100%] bg-[#ff1f25] translate-x-[400px]"></div>
-        <div className="w-[50%] scale-[150%] h-[100%] translate-y-[204px] rounded-full bg-yellow-300"></div>
+        <div className="absolute h-screen w-[100%] bg-[#ff1f25] translate-x-[25rem]"></div>
+        <div className="w-[50%] scale-[150%] h-[100%] translate-y-[12.7rem] rounded-full bg-yellow-300"></div>
       </div>
     </div>
   );
