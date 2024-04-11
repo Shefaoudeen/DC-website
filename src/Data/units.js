@@ -1,6 +1,6 @@
 import { luffy, zoro, sanji } from "../assets";
 
-const work = [
+const units = [
   {
     id: 1,
     division: "PRIME",
@@ -37,4 +37,4 @@ const work = [
   },
 ];
 
-export { work };
+export { units };

@@ -8,9 +8,9 @@ import Arrow from "./Arrow";
 const Home = () => {
   return (
     <div className="relative flex flex-col items-center justify-start w-full min-h-[80vh] select-none">
-      <div className="min-h-screen w-[100%]">
-        <div className="flex flex-col justify-center w-[100%] max-sm:w-[90%] home-custom-1">
-          <div className="w-full h-full flex justify-start overflow-x-clip items-start max-sm:text-6xl">
+      <div className="min-h-screen w-[100%] overflow-x-clip">
+        <div className="flex flex-col justify-center w-[100%] max-sm:w-[90%] home-custom-1 ">
+          <div className="w-full h-full flex justify-start  items-start max-sm:text-6xl">
             <section className="hero relative">
               <div id="anim-mask" className="ease-in-out">
                 <img

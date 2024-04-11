@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 import React, { useState } from "react";
 import Arrow from "./Arrow";
-import { work } from "../Data/work";
+import { units } from "../Data/units";
 
 const Units = () => {
   const [toggle, setToggle] = useState(null);
@@ -58,7 +58,7 @@ const Units = () => {
         </div>
         {/* For Desktop */}
         <div className="w-full max-md:hidden">
-          {work.map((dataItems) => {
+          {units.map((dataItems) => {
             return (
               <div className="w-[100%] flex flex-col items-center">
                 <div
@@ -133,7 +133,7 @@ const Units = () => {
         </div>
         <div className="w-full md:hidden">
           {/*For Mobile */}
-          {work.map((dataItems) => {
+          {units.map((dataItems) => {
             return (
               <div className="w-[100%] flex flex-col items-center">
                 <Link
