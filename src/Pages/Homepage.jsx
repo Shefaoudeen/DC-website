@@ -11,7 +11,7 @@ const Homepage = () => {
     <>
       <Home />
       <VideoBox />
-      <Units />
+      <Units id="units" />
       <Works />
       <Team />
     </>

@@ -1,0 +1,4 @@
+#slide {
+  transition-property: right background;
+  transition-duration: 250ms;
+}

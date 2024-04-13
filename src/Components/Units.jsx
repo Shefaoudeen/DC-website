@@ -87,7 +87,7 @@ const Units = () => {
                     <div
                       className={`absoulte w-[50px] h-[100px] absolute max-sm:right-0 flex justify-center items-center  right-2 max-sm:scale-[80%]`}
                     >
-                      <Arrow />
+                      <Arrow color="bg-[#005cef]" />
                     </div>
                   </div>
                   <div className="transition-trasform delay-500 ease-linear">
@@ -159,7 +159,7 @@ const Units = () => {
                       <div
                         className={`absoulte w-[50px] h-[100px] absolute max-sm:right-0 flex justify-center items-center  right-2 max-md:scale-[80%] -rotate-90`}
                       >
-                        <Arrow />
+                        <Arrow color="bg-[#005cef]" />
                       </div>
                     </div>
                   </div>

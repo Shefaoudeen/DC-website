@@ -4,7 +4,10 @@ import { UpArrow } from "../assets/index";
 
 const Footer = () => {
   return (
-    <div className="bg-[#005cef] w-full flex justify-center items-center h-screen">
+    <div
+      className="bg-[#005cef] w-full flex justify-center items-center h-screen"
+      id="footer"
+    >
       <div className="flex flex-col justify-start w-[80%] max-sm:w-[90%]">
         <div className="flex flex-col justify-center w-full h-[150px] border-b-[10px] border-[white] max-sm:w-[90%] z-20">
           <h1 className="text-start text-8xl font-bold text-[white] max-md:text-6xl">
@@ -41,7 +44,7 @@ const Footer = () => {
         id="circle"
       >
         <div className="absolute h-screen w-[100%] bg-[#ff1f25] translate-x-[25rem]"></div>
-        <div className="w-[50%] scale-[150%] h-[100%] translate-y-[12.7rem] rounded-full bg-yellow-300"></div>
+        <div className="w-[50%] max-md:w-[100%] scale-[150%] h-[100%] translate-y-[12.7rem] rounded-full bg-yellow-300"></div>
       </div>
     </div>
   );

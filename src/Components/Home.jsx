@@ -7,7 +7,10 @@ import Arrow from "./Arrow";
 
 const Home = () => {
   return (
-    <div className="relative flex flex-col items-center justify-start w-full min-h-[80vh] select-none">
+    <div
+      className="relative flex flex-col items-center justify-start w-full min-h-[80vh] select-none"
+      id="home"
+    >
       <div className="min-h-screen w-[100%] overflow-x-clip">
         <div className="flex flex-col justify-center w-[100%] max-sm:w-[90%] home-custom-1 ">
           <div className="w-full h-full flex justify-start  items-start max-sm:text-6xl">
@@ -28,7 +31,7 @@ const Home = () => {
               </div>
               <div className="absolute left-6 mt-10 ml-2 mb-2 hover:translate-y-5 delay-200 transition-all ease-linear">
                 <a href="#about">
-                  <Arrow />
+                  <Arrow color="bg-[#005cef]" />
                 </a>
               </div>
             </section>
