@@ -46,7 +46,7 @@ const Works = () => {
             className={`w-[100%] min-h-full ${
               slide ? "bg-[#4d89e9]" : "bg-[#005cef]"
             } absolute top-0 ease-linear 
-            right-[${slide ? `0%` : `100%`}] 
+            ${slide ? `right-[0%]` : `right-[100%]`} 
             transition-all delay-100 z-10 ${
               slide ? "text-[white]" : "text-[#005cef]"
             } p-10 text-3xl text-justify`}
