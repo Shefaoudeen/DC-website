@@ -3,9 +3,11 @@ import React from "react";
 const About = () => {
   return (
     <div className="bg-[#005cef] w-full min-h-screen flex justify-center items-center ">
-      <div className="flex flex-col justify-center w-[80%] max-sm:w-[90%] text-justify z-20 max-md:text-xl">
-        <h1 className="text-[#0148b9] text-8xl font-bold">Who we are?</h1>
-        <h1 className="text-[white] text-6xl font-bold pt-5">
+      <div className="flex flex-col justify-center w-[80%] max-sm:w-[90%]  z-20 max-md:text-xl py-10 px-5">
+        <h1 className="text-[#0148b9] text-8xl font-bold max-md:text-6xl">
+          Who we are?
+        </h1>
+        <h1 className="text-[white] text-6xl font-bold pt-5 max-md:text-4xl text-justify px-6">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices
           et leo sit amet blandit. Nullam dictum feugiat tortor non convallis.
           Donec sollicitudin commodo mauris, a porta orci gravida ut.

@@ -5,12 +5,12 @@ import { UpArrow } from "../assets/index";
 const Footer = () => {
   return (
     <div
-      className="bg-[#005cef] w-full flex justify-center items-center h-screen"
+      className="bg-[#005cef] w-full flex justify-center items-center h-screen max-md:h-min relative"
       id="footer"
     >
       <div className="flex flex-col justify-start w-[80%] max-sm:w-[90%]">
-        <div className="flex flex-col justify-center w-full h-[150px] border-b-[10px] border-[white] max-sm:w-[90%] z-20">
-          <h1 className="text-start text-8xl font-bold text-[white] max-md:text-6xl">
+        <div className="flex flex-col justify-center w-full h-[150px] border-b-[10px] max-md:border-b-[4px] max-md:h-[90px] border-[white] max-sm:w-[90%] z-20">
+          <h1 className="text-start text-8xl font-bold text-[white] max-md:text-5xl max-md:font-semibold">
             Say hello.
           </h1>
         </div>
@@ -22,11 +22,11 @@ const Footer = () => {
           </h2>
         </div>
 
-        <div className="pt-20 z-20">
-          <h3 className="text-start text-2xl font-bold text-[white]">
+        <div className="pt-20 z-20 max-md:text-xl">
+          <h3 className="text-start text-2xl font-bold text-[white] max-md:text-xl">
             Address:
           </h3>
-          <h2 className="text-start text-2xl text-[white] pt-5 z-20">
+          <h2 className="text-start text-2xl text-[white] pt-5 z-20 max-md:text-xl">
             Puducherry Technological University&nbsp;
             <br />
             East Coast Road&nbsp;
@@ -40,10 +40,10 @@ const Footer = () => {
         </div>
       </div>
       <div
-        className="absolute w-full h-screen z-10 overflow-y-clip"
+        className="absolute w-full h-full overflow-y-clip max-md:bottom-0 z-10 md:overflow-y-clip max-md:w-[550px] max-md:h-[550px] "
         id="circle"
       >
-        <div className="absolute h-screen w-[100%] bg-[#ff1f25] translate-x-[25rem]"></div>
+        <div className="absolute h-screen w-[100%] bg-[#ff1f25] translate-x-[25rem] max-md:translate-x-[16rem]"></div>
         <div className="w-[50%] max-md:w-[100%] scale-[150%] h-[100%] translate-y-[12.7rem] rounded-full bg-yellow-300"></div>
       </div>
     </div>

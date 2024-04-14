@@ -151,7 +151,7 @@ const Units = () => {
                           {dataItems.motto}
                         </h1>
                         <h1
-                          className={`text-[${red}] text-7xl font-bold transition-colors delay-5 ease-linear max-md:text-4xl`}
+                          className={`text-[${red}] text-7xl font-bold transition-colors delay-5 ease-linear max-md:text-5xl max-md:font-semibold`}
                         >
                           {dataItems.division}
                         </h1>

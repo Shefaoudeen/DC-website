@@ -27,16 +27,17 @@ const Works = () => {
           Our Works.
         </h1>
 
-        <div className="min-h-[70%] font-bold  pt-10 text-[#7599d3] max-md:text-2xl relative mt-10">
+        <div className="min-h-[70%] font-bold  pt-10 text-[#7599d3] max-md:text-2xl relative mt-10 max-md:px-5">
           <p className="text-justify leading-[60px]">
             {works.map((activity, id) => {
               return (
                 <span
-                  className="text-6xl hover:text-white transition-all delay-50 ease-linear cursor-pointer"
+                  className="text-6xl hover:text-white transition-all delay-50 ease-linear cursor-pointer max-md:text-3xl max-md:text-white"
                   onClick={() => funcCall(id)}
                 >
-                  {" "}
-                  {activity.title}{" "}
+                  {""}
+                  {activity.title}
+                  {" | "}
                 </span>
               );
             })}
@@ -59,7 +60,9 @@ const Works = () => {
             >
               <Arrow className="bg-[#ffff00]" color="bg-[#ffff00]" />
             </div>
-            <h1 className="pt-20 px-10">{works[id].description}</h1>
+            <h1 className="pt-20 md:px-10 max-md:text-xl">
+              {works[id].description}
+            </h1>
           </div>
         </div>
       </div>

@@ -8,12 +8,12 @@ import Arrow from "./Arrow";
 const Home = () => {
   return (
     <div
-      className="relative flex flex-col items-center justify-start w-full min-h-[80vh] select-none"
+      className="relative flex flex-col items-center justify-start w-full min-h-[100vh] select-none"
       id="home"
     >
       <div className="min-h-screen w-[100%] overflow-x-clip">
         <div className="flex flex-col justify-center w-[100%] max-sm:w-[90%] home-custom-1 ">
-          <div className="w-full h-full flex justify-start  items-start max-sm:text-6xl">
+          <div className="w-full h-full flex justify-start max-md:-ml-20  items-start max-sm:text-6xl">
             <section className="hero relative">
               <div id="anim-mask" className="ease-in-out">
                 <img
@@ -23,7 +23,7 @@ const Home = () => {
                 />
               </div>
               <div className="wrapper z-50">
-                <h1 className="hero-title">
+                <h1 className="hero-title max-md:text-9xl">
                   Design&nbsp;
                   <br />
                   Club.
