@@ -8,8 +8,15 @@ import Homepage from "./Pages/Homepage";
 import Units from "./Components/Units";
 import { useState } from "react";
 import { Logo } from "./assets";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function App() {
+  Aos.init({
+    duration: 1500,
+    offset: 0,
+  });
+
   const [loading, setLoading] = useState(true);
   setTimeout(() => {
     setLoading(false);
@@ -19,8 +26,15 @@ export default function App() {
       <ScrollToTop />
       {loading ? (
         <div className="flex flex-col justify-center items-center h-screen w-full bg-white">
-          <img src={Logo} className="w-[500px] h-[500px]" />
-          <h1 className="font-bold text-5xl pt-5 text-[#298892]">
+          <img
+            src={Logo}
+            className="w-[500px] h-[500px] max-md:w-[400px] max-md:h-[400px]"
+            data-aos="zoom-out"
+          />
+          <h1
+            className="font-bold text-5xl pt-5 text-[#298892]"
+            data-aos="zoom-out"
+          >
             DESIGN CLUB
           </h1>
         </div>
