@@ -122,7 +122,7 @@ const Development = () => {
             </div>
 
             <div className="rotate-[270deg] md:mx-[100px] group-hover:translate-x-10 delay-100 transition-all ease-linear">
-              <Arrow />
+              <Arrow color="bg-[#005cef]" />
             </div>
           </div>
         </Link>

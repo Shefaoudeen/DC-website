@@ -19,7 +19,7 @@ const Works = () => {
 
   return (
     <div
-      className="bg-[#005cef] w-full flex justify-center items-start min-h-[100vh] mt-20"
+      className="bg-[#005cef] w-full flex justify-center items-start min-h-[100vh] max-md:min-h-[110vh] mt-20"
       style={{ userSelect: "none" }}
     >
       <div className="h-[100%] flex flex-col justify-start pt-20 w-[80%] max-sm:w-[90%]">
@@ -28,16 +28,14 @@ const Works = () => {
         </h1>
 
         <div className="min-h-[70%] font-bold  pt-10 text-[#7599d3] max-md:text-2xl relative mt-10 max-md:px-5">
-          <p className="text-justify leading-[60px]">
+          <p className="text-justify md:leading-[80px] max-md:text-center">
             {works.map((activity, id) => {
               return (
                 <span
-                  className="text-6xl hover:text-white transition-all delay-50 ease-linear cursor-pointer max-md:text-3xl max-md:text-white"
+                  className="text-6xl hover:text-white max-md:flex max-md:justify-center max-md:py-2.5  transition-all delay-50 ease-linear cursor-pointer max-md:text-xl max-md:text-white px-5 max-md:px-10 md:border-l-2 md:border-r-2 border-[#7599d3]"
                   onClick={() => funcCall(id)}
                 >
-                  {""}
                   {activity.title}
-                  {" | "}
                 </span>
               );
             })}
@@ -60,9 +58,16 @@ const Works = () => {
             >
               <Arrow className="bg-[#ffff00]" color="bg-[#ffff00]" />
             </div>
-            <h1 className="pt-20 md:px-10 max-md:text-xl">
+            <h1 className="pt-20 md:px-10 max-md:text-lg">
               {works[id].description}
             </h1>
+            <div className="flex cursor-pointer ml-10 justify-start w-[80%] relative mt-10">
+              <div className="bg-yellow-400 w-[175px] justify-start z-10 px-6 py-4 font-bold text-xl hover:translate-x-3 hover:-translate-y-3 transition-all delay-100 ease-linear">
+                View Project
+              </div>
+
+              <div className="bg-yellow-600 h-full w-[175px] absolute"></div>
+            </div>
           </div>
         </div>
       </div>
