@@ -2,7 +2,6 @@ import React from "react";
 
 const Arrow = (props) => {
   let bgColor = props.color;
-  console.log(props.color);
   return (
     <div className="w-[50px] h-[100px] flex justify-center items-center relative max-sm:h-[75px] max-sm:w-[40px] select-none">
       <div className={`h-[80%] w-[20%] rounded-b-2xl ${props.color} `}></div>

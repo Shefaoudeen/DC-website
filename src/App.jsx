@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, useParams } from "react-router-dom";
 import Prime from "./Components/Units/Prime";
 import Video from "./Components/Units/Video";
 import Development from "./Components/Units/Development";

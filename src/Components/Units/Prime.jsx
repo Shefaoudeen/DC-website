@@ -1,6 +1,7 @@
 import React from "react";
 import Arrow from "../Arrow";
 import { Link } from "react-router-dom";
+import Footer from "../../Pages/Footer";
 
 const Prime = () => {
   let blue = "#005cef";
@@ -127,6 +128,7 @@ const Prime = () => {
           </div>
         </Link>
       </div>
+      <Footer status="hidden" />
     </div>
   );
 };

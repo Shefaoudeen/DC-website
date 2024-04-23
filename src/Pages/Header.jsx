@@ -6,14 +6,14 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="flex justify-center text-2xl">
-      <div className="flex justify-between w-[90%] max-md:w-[90%] border-b-4 border-black py-5">
+      <div className="flex justify-between max-md:justify-center w-[90%] max-md:w-[90%] border-b-4 border-black py-5">
         <div>
           <img src={DC24} className="w-[200px]" />
         </div>
-        <div className="flex items-center text-4xl font-bold justify-center text-center">
+        <div className="flex items-center text-4xl font-bold justify-center text-center max-md:hidden">
           Puducherry Technological University
         </div>
-        <div className="flex justify-around items-center">
+        <div className="flex justify-around items-center max-md:hidden">
           <div className="flex w-[100%] text-2xl justify-around max-md:hidden font-bold gap-2">
             <a href="/#units">
               <button className=" px-4 py-2 hover:bg-[#005cef] delay-100 transition-colors ease-linear hover:text-white rounded-lg">

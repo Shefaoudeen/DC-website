@@ -1,6 +1,7 @@
 import React from "react";
 import Arrow from "../Arrow";
 import { Link } from "react-router-dom";
+import Footer from "../../Pages/Footer";
 
 const Development = () => {
   let blue = "#005cef";
@@ -110,10 +111,7 @@ const Development = () => {
         </div>
       </div>
       <div className="flex justify-center py-10 ">
-        <Link
-          to="/units"
-          className="flex justify-center items-center group  w-full"
-        >
+        <Link to="/" className="flex justify-center items-center group  w-full">
           <div className="w-[80%] flex justify-between items-center cursor-pointer">
             <div>
               <h1 className={`text-6xl font-bold text-[${blue}]`}>
@@ -127,6 +125,7 @@ const Development = () => {
           </div>
         </Link>
       </div>
+      <Footer status="hidden" />
     </div>
   );
 };
