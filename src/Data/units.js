@@ -12,6 +12,7 @@ const units = [
     motto: "Innovate, Create, Design!",
     video: luffy,
     link: "/prime",
+    index: 30,
   },
   {
     id: 2,
@@ -23,6 +24,7 @@ const units = [
     motto: "Lights, Camera, Edit!",
     video: zoro,
     link: "/video",
+    index: 20,
   },
   {
     id: 3,
@@ -34,6 +36,7 @@ const units = [
     motto: "Coding Dreams into Reality!",
     video: sanji,
     link: "/development",
+    index: 10,
   },
 ];
 

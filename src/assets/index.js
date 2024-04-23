@@ -6,5 +6,16 @@ import DownArrow from "./arrow-blue-long.svg";
 import UpArrow from "./arrow-white-long.svg";
 import VideoForBox from "./video-box.mp4";
 import Logo from "./logo.png";
+import DC24 from "./dc24.png";
 
-export { luffy, zoro, sanji, HomeImage, DownArrow, UpArrow, VideoForBox, Logo };
+export {
+  luffy,
+  zoro,
+  sanji,
+  HomeImage,
+  DownArrow,
+  UpArrow,
+  VideoForBox,
+  Logo,
+  DC24,
+};

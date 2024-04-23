@@ -44,7 +44,7 @@ const Footer = () => {
         id="circle"
       >
         <div className="absolute h-screen w-[100%] bg-[#ff1f25] translate-x-[25rem] max-md:translate-x-[16rem]  max-md:translate-y-[4rem]"></div>
-        <div className="w-[50%] max-md:w-[100%] scale-[150%] h-[100%] translate-y-[12.7rem] rounded-full bg-yellow-300"></div>
+        <div className="w-[100vh] max-md:w-[100%] scale-[150%] h-[100vh] translate-y-[12.7rem] rounded-full bg-yellow-300"></div>
       </div>
     </div>
   );

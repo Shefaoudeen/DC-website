@@ -25,16 +25,15 @@ export default function App() {
     <BrowserRouter>
       <ScrollToTop />
       {loading ? (
-        <div className="flex flex-col justify-center items-center h-screen w-full bg-white">
+        <div
+          className="flex flex-col justify-center items-center h-screen w-full bg-white"
+          data-aos="zoom-out"
+        >
           <img
             src={Logo}
             className="w-[500px] h-[500px] max-md:w-[400px] max-md:h-[400px]"
-            data-aos="zoom-out"
           />
-          <h1
-            className="font-bold text-5xl pt-5 text-[#298892]"
-            data-aos="zoom-out"
-          >
+          <h1 className="font-bold text-5xl pt-5 text-[#298892]">
             DESIGN CLUB
           </h1>
         </div>
