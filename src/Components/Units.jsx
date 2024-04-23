@@ -88,8 +88,8 @@ const Units = () => {
                       </h1>
                     </div>
                     <div
-                      className={`absoulte rotate-${
-                        toggle !== dataItems.id ? "0" : "180"
+                      className={`absoulte ${
+                        toggle !== dataItems.id ? "rotate-0" : "rotate-180"
                       } w-[50px] h-[100px] absolute transition-all duration-[250ms] ease-in max-sm:right-0 flex justify-center items-center  right-2 max-sm:scale-[80%]`}
                     >
                       <Arrow color="bg-[#005cef]" />
