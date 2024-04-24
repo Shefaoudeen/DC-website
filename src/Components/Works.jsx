@@ -33,7 +33,7 @@ const Works = () => {
             {works.map((activity, id) => {
               return (
                 <span
-                  className="text-6xl hover:text-white max-md:flex max-md:justify-center max-md:py-2.5  transition-all delay-50 ease-linear cursor-pointer max-md:text-xl max-md:text-white px-5 max-md:px-10 md:border-l-none md:border-r-none border-[#7599d3]"
+                  className="text-5xl hover:text-white max-md:flex max-md:justify-center max-md:py-2.5  transition-all delay-50 ease-linear cursor-pointer max-md:text-xl max-md:text-white px-5 max-md:px-10 md:border-l-none md:border-r-none border-[#7599d3]"
                   onClick={() => funcCall(id)}
                 >
                   {activity.title}
