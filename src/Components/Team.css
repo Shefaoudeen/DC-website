@@ -1,16 +1,1 @@
-.profile-circle:hover {
-  position: absolute;
-  border: 2px solid black;
-  transform-origin: 0% 100%;
-  animation: cabins 2s linear;
-}
 
-@keyframes cabins {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(90deg);
-  }
-}

@@ -8,7 +8,7 @@ const Footer = (props) => {
   console.log({ id });
   return (
     <div
-      className="bg-[#005cef] w-full flex justify-center items-center h-screen max-md:h-min relative"
+      className="bg-[#005cef] w-full flex justify-center items-center h-screen max-md:h-min relative overflow-x-clip"
       id="footer"
     >
       <div className="flex flex-col justify-start w-[80%] max-sm:w-[90%]">

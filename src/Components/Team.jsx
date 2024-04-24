@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../Pages/Footer";
 import "./Team.css";
+import { team } from "../Data/team";
 
 const Team = () => {
   return (
@@ -9,15 +10,32 @@ const Team = () => {
         <h1 className="text-[white] text-8xl font-bold max-sm:text-6xl">
           Team DC.
         </h1>
-        <div className="pt-10">
-          <h1 className="text-[white] text-4xl font-bold">Kuhan</h1>
-          <h5 className="text-[white] text-2xl">President</h5>
-        </div>
-        <div>
-          <div className="max-w-[200px] min-h-[200px] bg-blue-400 rounded-full flex justify-center items-center group">
-            <div className="max-w-[180px] min-w-[180px] cursor-pointer min-h-[180px] bg-blue-800 rounded-full profile-circle duration-200"></div>
-          </div>
-        </div>
+      </div>
+      <div className="flex pt-10 flex-col gap-10 w-[90%] items-center justify-center">
+        {team.map((person) => {
+          return (
+            <div
+              className={`flex w-[50%] ${
+                person.id % 2 !== 0 ? "justify-between" : "justify-between"
+              } ${
+                person.id % 2 === 0 ? "flex-row" : "flex-row-reverse"
+              } gap-[200px] py-5 items-center`}
+            >
+              {" "}
+              <div>
+                <div className="max-w-[300px] min-w-[300px] min-h-[300px] bg-yellow-400 rounded-full flex justify-center items-center group cursor-pointer">
+                  <div className="max-w-[250px] min-w-[250px] cursor-pointer min-h-[250px] bg-blue-600 rounded-full origin-bottom group-hover:rotate-180 duration-[400ms]"></div>
+                </div>
+              </div>
+              <div className="pt-10">
+                <h1 className="text-[white] text-4xl font-bold">
+                  {person.name}
+                </h1>
+                <h5 className="text-[white] text-2xl">{person.designation}</h5>
+              </div>
+            </div>
+          );
+        })}
       </div>
       <div className="pt-10 w-full">
         <Footer />

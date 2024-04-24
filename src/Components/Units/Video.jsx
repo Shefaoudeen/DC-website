@@ -111,10 +111,7 @@ const Video = () => {
         </div>
       </div>
       <div className="flex justify-center py-10 ">
-        <Link
-          to="/units"
-          className="flex justify-center items-center group  w-full"
-        >
+        <Link to="/" className="flex justify-center items-center group  w-full">
           <div className="w-[80%] flex justify-between items-center cursor-pointer">
             <div>
               <h1 className={`text-6xl font-bold text-[${blue}]`}>
@@ -123,7 +120,7 @@ const Video = () => {
             </div>
 
             <div className="rotate-[270deg] md:mx-[100px] group-hover:translate-x-10 delay-100 transition-all ease-linear">
-              <Arrow />
+              <Arrow color="bg-[#005cef]" />
             </div>
           </div>
         </Link>

@@ -1,18 +1,20 @@
 import React from "react";
 import Hamburger from "../Components/Hamburger";
-import { DC24 } from "../assets";
+import { DC24, Logo } from "../assets";
 import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="flex justify-center text-2xl">
-      <div className="flex justify-between max-md:justify-center w-[90%] max-md:w-[90%] border-b-4 border-black py-5">
+    <div className="flex justify-center text-2xl  w-full">
+      <div className="flex justify-between max-md:justify-center w-[80%] max-md:w-[90%] border-b-4 border-black py-5">
+        <div>
+          <img src={Logo} className="w-[100px]" />
+        </div>
+
         <div>
           <img src={DC24} className="w-[200px]" />
         </div>
-        <div className="flex items-center text-4xl font-bold justify-center text-center max-md:hidden">
-          Puducherry Technological University
-        </div>
+
         <div className="flex justify-around items-center max-md:hidden">
           <div className="flex w-[100%] text-2xl justify-around max-md:hidden font-bold gap-2">
             <a href="/#units">

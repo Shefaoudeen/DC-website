@@ -31,7 +31,7 @@ const Home = () => {
               </div>
               <div className="absolute left-6 mt-10 ml-2 mb-2 hover:translate-y-5 delay-200 transition-all ease-linear">
                 <a href="#about">
-                  <Arrow color="bg-[#005cef]" />
+                  <Arrow color="bg-[#005cef] select-none" />
                 </a>
               </div>
             </section>

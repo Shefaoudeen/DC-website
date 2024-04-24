@@ -54,10 +54,13 @@ const Works = () => {
             <div
               className={`absolute right-10 top-5 rotate-90 ${
                 slide == false ? `invisible` : `visible`
-              } delay-200`}
+              } delay-200 group cursor-pointer`}
               onClick={() => funcCall(id)}
             >
-              <Arrow className="bg-[#ffff00]" color="bg-[#ffff00]" />
+              <Arrow
+                className="bg-[#ffff00]"
+                color="bg-[#ffff00] group-hover:translate-y-10 duration-100 ease-linear"
+              />
             </div>
             <h1 className="pt-20 md:px-10 max-md:text-lg">
               {works[id].description}
