@@ -13,7 +13,7 @@ const Prime = () => {
         <div className="w-[80%]">
           <a href="#about">
             <div className="scale-[60%] w-min hover:translate-y-5 delay-100 transition-all ease-linear">
-              <Arrow />
+              <Arrow color="bg-[#005cef] select-none" />
             </div>
           </a>
           <div>

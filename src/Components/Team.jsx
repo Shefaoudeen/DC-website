@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../Pages/Footer";
 import "./Team.css";
 import { team } from "../Data/team";
+import { Logo } from "../assets";
 
 const Team = () => {
   return (
@@ -23,8 +24,12 @@ const Team = () => {
             >
               {" "}
               <div>
-                <div className="max-w-[300px] min-w-[300px] min-h-[300px] bg-yellow-400 rounded-full flex justify-center items-center group cursor-pointer">
-                  <div className="max-w-[250px] min-w-[250px] cursor-pointer min-h-[250px] bg-blue-600 rounded-full origin-bottom group-hover:rotate-180 duration-[400ms]"></div>
+                <div className="max-w-[300px] min-w-[300px] relative min-h-[300px] bg-yellow-400 rounded-full flex justify-center items-center group cursor-pointer">
+                  <div className="absolute bg-yellow-600 w-full h-full rounded-full -z-10 -translate-x-2 translate-y-2"></div>
+                  <img src={Logo} alt="" className="absolute scale-75" />
+                  <div className="relative max-w-[250px] min-w-[250px] cursor-pointer min-h-[250px] bg-blue-600 rounded-full origin-bottom group-hover:rotate-180 duration-[400ms]">
+                    <div className="absolute max-w-[20px] min-w-[20px] max-h-[20px] min-h-[20px] bg-orange-700 rounded-full  bottom-2 right-[50%]"></div>
+                  </div>
                 </div>
               </div>
               <div className="pt-10">
