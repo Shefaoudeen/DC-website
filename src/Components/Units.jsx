@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import Arrow from "./Arrow";
 import { units } from "../Data/units";
+import Social from "./Social";
 
 const Units = () => {
   const [toggle, setToggle] = useState(null);
@@ -53,6 +54,7 @@ const Units = () => {
       style={{ userSelect: "none" }}
       id="units"
     >
+      <Social />
       <div className="flex flex-col justify-center items-center w-[100%]">
         <div className="flex flex-col justify-center w-[80%] h-[150px] border-b-[10px] border-[#005cef] max-sm:w-[90%]">
           <h1 className="text-start text-[#005cef] text-8xl poppins-semibold max-sm:text-7xl">

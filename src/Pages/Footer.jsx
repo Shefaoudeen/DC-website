@@ -13,6 +13,7 @@ const Footer = (props) => {
       className="bg-[#005cef] w-full flex justify-center items-center h-screen max-md:h-min relative overflow-x-clip select-none max-w-screen"
       id="footer"
     >
+      <Social />
       <div className="flex flex-col justify-start w-[80%] max-sm:w-[90%] max-md:pt-10">
         <div className="flex flex-col justify-center w-full h-[150px] border-b-[10px] max-md:border-b-[4px] max-md:h-[90px] border-[white] max-sm:w-[90%] z-20">
           <h1 className="text-start text-8xl font-bold text-[white] max-md:text-5xl max-md:font-semibold ">

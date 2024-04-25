@@ -4,6 +4,7 @@ import { works } from "../Data/works";
 import "./work.css";
 import Arrow from "./Arrow";
 import { data } from "autoprefixer";
+import Social from "./Social";
 
 const Works = () => {
   const [slide, setSlide] = useState(false);
@@ -23,6 +24,7 @@ const Works = () => {
       id="works"
       style={{ userSelect: "none" }}
     >
+      <Social />
       <div className="h-[100%] flex flex-col justify-start pt-20 w-[80%] max-sm:w-[90%]">
         <h1 className="text-start text-8xl font-bold text-[white] max-md:text-6xl h-[20%]">
           Our Works.

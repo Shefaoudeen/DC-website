@@ -1,5 +1,6 @@
 import React from "react";
 import { VideoForBox } from "../assets/index";
+import Social from "./Social";
 
 const VideoBox = () => {
   return (
@@ -13,6 +14,7 @@ const VideoBox = () => {
       >
         <source src={VideoForBox} type="video/mp4" />
       </video>
+      <Social />
     </div>
   );
 };
