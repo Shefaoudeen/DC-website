@@ -9,7 +9,7 @@ const About = () => {
         <h1 className="text-[#b3c8e9] text-8xl max-md:text-6xl pb-10 poppins-semibold">
           Who we are?
         </h1>
-        <h1 className="text-[white] text-5xl pt-5 max-md:text-2xl max-md:px-5 max-md:font-semibold text-justify mdpy-20 poppins-medium">
+        <h1 className="text-[white] text-5xl leading-tight pt-5 max-md:text-2xl max-md:px-5 max-md:font-semibold text-justify mdpy-20 poppins-medium">
           Design Club of Puducherry Technological University is your hub to
           connect with designers and shape a collaborative, boundless creative
           space. Join us for dynamic discussions, project sharing, and elevate
