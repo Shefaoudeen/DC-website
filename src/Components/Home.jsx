@@ -13,6 +13,7 @@ const Home = () => {
       className="relative flex flex-col items-center justify-start w-full min-h-[100vh] select-none"
       id="home"
     >
+      <Social />
       <div className="min-h-screen w-[100%] overflow-x-clip">
         <div className="flex flex-col justify-center w-[100%] max-sm:w-[90%] home-custom-1 ">
           <div className="w-full h-full flex justify-start max-md:-ml-20  items-start max-sm:text-6xl">
