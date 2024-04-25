@@ -6,16 +6,16 @@ const About = () => {
     <div className="bg-[#005cef] w-full min-h-screen flex justify-center items-center ">
       <div className="flex flex-col justify-center w-[75%] max-sm:w-[90%]  z-20 max-md:text-xl pt-10 px-5">
         {/* color change */}
-        <h1 className="text-[#b3c8e9] text-8xl max-md:text-6xl pb-10 poppins-semibold">
+        <h1 className="text-[#b3c8e9] poppins-semibold text-7xl max-md:text-4xl pb-10">
           Who we are?
         </h1>
-        <h1 className="text-[white] text-5xl leading-tight pt-5 max-md:text-2xl max-md:px-5 max-md:font-semibold text-justify mdpy-20 poppins-medium">
+        <h1 className="text-[white] poppins-semibold text-4xl leading-tight pt-5 max-md:text-2xl text-justify mdpy-20">
           Design Club of Puducherry Technological University is your hub to
           connect with designers and shape a collaborative, boundless creative
           space. Join us for dynamic discussions, project sharing, and elevate
           your passion for design in our vibrant community!
         </h1>
-        <h4 className="text-[white] text-justify py-5 max-md:text-lg">
+        <h4 className="text-[white] poppins-extrathin text-justify py-5 max-md:text-lg">
           Nullam odio nunc, placerat sit amet odio nec, gravida lobortis eros.
           In vel volutpat dolor, at accumsan velit. Fusce egestas molestie enim,
           vel elementum tellus euismod eget. Sed cursus augue lobortis augue

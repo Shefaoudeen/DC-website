@@ -23,7 +23,7 @@ const Home = () => {
                 />
               </div>
               <div className="wrapper z-50">
-                <h1 className="hero-title max-md:text-9xl">
+                <h1 className="hero-title text-9xl max-md:text-8xl">
                   Design&nbsp;
                   <br />
                   Club.

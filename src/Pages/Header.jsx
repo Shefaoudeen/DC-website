@@ -2,6 +2,7 @@ import React from "react";
 import Hamburger from "../Components/Hamburger";
 import { DC24, Logo } from "../assets";
 import { Link } from "react-router-dom";
+import "../fonts.css";
 
 const Header = () => {
   return (
@@ -16,7 +17,7 @@ const Header = () => {
         </div>
 
         <div className="flex justify-around items-center max-md:hidden">
-          <div className="flex w-[100%] text-2xl justify-around max-md:hidden font-bold gap-2">
+          <div className="flex w-[100%] poppins-extralight text-2xl justify-around max-md:hidden gap-2">
             <a href="/#units">
               <button className=" px-4 py-2 hover:bg-[#005cef] delay-100 transition-colors ease-linear hover:text-white rounded-lg">
                 Units
