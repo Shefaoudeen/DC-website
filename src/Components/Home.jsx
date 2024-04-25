@@ -4,6 +4,7 @@ import { HomeImage, DownArrow } from "../assets/index";
 import "./styles.css";
 import About from "./About";
 import Arrow from "./Arrow";
+import Social from "./Social";
 
 const Home = () => {
   return (

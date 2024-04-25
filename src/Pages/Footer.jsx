@@ -3,6 +3,7 @@ import "./styles.css";
 import { UpArrow } from "../assets/index";
 import { useParams } from "react-router-dom";
 import EmailForm from "../Components/EmailForm";
+import Social from "../Components/Social";
 
 const Footer = (props) => {
   let { id } = useParams();
@@ -83,6 +84,7 @@ const Footer = (props) => {
           </a>
         </h1>
       </div>
+      <Social />
     </div>
   );
 };
