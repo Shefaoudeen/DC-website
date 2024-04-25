@@ -1,14 +1,15 @@
 import React from "react";
+import "../fonts.css";
 
 const About = () => {
   return (
     <div className="bg-[#005cef] w-full min-h-screen flex justify-center items-center ">
       <div className="flex flex-col justify-center w-[75%] max-sm:w-[90%]  z-20 max-md:text-xl pt-10 px-5">
         {/* color change */}
-        <h1 className="text-[#b3c8e9] text-8xl font-bold max-md:text-6xl pb-10">
+        <h1 className="text-[#b3c8e9] text-8xl max-md:text-6xl pb-10 poppins-semibold">
           Who we are?
         </h1>
-        <h1 className="text-[white] text-5xl font-bold pt-5 max-md:text-2xl max-md:px-5 max-md:font-semibold text-justify mdpy-20">
+        <h1 className="text-[white] text-5xl pt-5 max-md:text-2xl max-md:px-5 max-md:font-semibold text-justify mdpy-20 poppins-medium">
           Design Club of Puducherry Technological University is your hub to
           connect with designers and shape a collaborative, boundless creative
           space. Join us for dynamic discussions, project sharing, and elevate
