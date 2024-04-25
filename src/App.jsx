@@ -31,7 +31,7 @@ export default function App() {
         >
           <img
             src={Logo}
-            className="w-[500px] h-[500px] max-md:w-[400px] max-md:h-[400px]"
+            className="w-[500px] h-[500px] max-md:w-[350px] max-md:h-[350px]"
           />
           <h1 className="font-bold text-5xl pt-5 text-[#298892]">
             DESIGN CLUB
