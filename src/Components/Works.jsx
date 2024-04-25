@@ -20,7 +20,7 @@ const Works = () => {
 
   return (
     <div
-      className="bg-[#005cef] w-full flex justify-center items-start min-h-[100vh] max-md:min-h-[110vh] mt-20 max-w-screen"
+      className="bg-[#005cef] w-full flex justify-center items-start h-[120vh]  max-md:min-h-[110vh] mt-20 max-w-screen"
       id="works"
       style={{ userSelect: "none" }}
     >
@@ -30,7 +30,7 @@ const Works = () => {
           Our Works.
         </h1>
 
-        <div className="min-h-[70%] font-bold  pt-10 text-[#7599d3] max-md:text-2xl relative mt-10 max-md:px-5">
+        <div className="min-h-[70%] font-bold  pt-5 text-[#7599d3] max-md:text-2xl relative mt-10 max-md:px-5">
           <p className="text-justify md:leading-[80px] max-md:text-center">
             {works.map((activity, id) => {
               return (
@@ -45,13 +45,13 @@ const Works = () => {
           </p>
           <div
             id="slide"
-            className={`w-[100%] min-h-full ${
+            className={`w-[100%] h-min ${
               slide ? "bg-[#4d89e9]" : "bg-[#005cef]"
             } absolute top-0 ease-linear 
             ${slide ? `right-[0%]` : `right-[100%]`} 
             transition-all delay-100 z-10 ${
               slide ? "text-[white]" : "text-[#005cef]"
-            } p-10 text-3xl text-justify`}
+            } p-10 text-2xl text-justify`}
           >
             <div
               className={`absolute right-10 top-5 rotate-90 ${
