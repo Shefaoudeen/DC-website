@@ -28,9 +28,11 @@ const Header = () => {
                 Works
               </button>
             </a>
-            <button className=" px-4 py-2 hover:bg-[#ff1f25] delay-100 transition-colors ease-linear hover:text-white rounded-lg">
-              Follow us
-            </button>
+            <a href="/#footer">
+              <button className=" px-4 py-2 hover:bg-[#ff1f25] delay-100 transition-colors ease-linear hover:text-white rounded-lg">
+                Follow us
+              </button>
+            </a>
             {/*<div>Hall of Fame</div>*/}
             {/*<div>Upcoming Events</div>*/}
           </div>

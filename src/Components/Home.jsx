@@ -10,7 +10,7 @@ import Social from "./Social";
 const Home = () => {
   return (
     <div
-      className="relative flex flex-col items-center justify-start w-full min-h-[100vh] select-none"
+      className="relative flex flex-col items-center justify-start w-full min-h-[100vh] select-none max-w-screen"
       id="home"
     >
       <Social />

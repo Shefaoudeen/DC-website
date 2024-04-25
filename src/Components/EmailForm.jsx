@@ -29,6 +29,7 @@ const EmailForm = () => {
         setName("");
         setEmail("");
         setMessage("");
+        alert("Email sent succesfully");
       })
       .catch((error) => {
         console.error("Error sending email: ", error);

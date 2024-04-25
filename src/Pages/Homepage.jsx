@@ -4,16 +4,17 @@ import VideoBox from "../Components/VideoBox";
 import Units from "../Components/Units";
 import Works from "../Components/Works";
 import Team from "../Components/Team";
-import Social from "../Components/Social";
+import Footer from "./Footer";
 
 const Homepage = () => {
   return (
     <>
       <Home />
       <VideoBox />
-      <Units id="units" />
+      <Units />
       <Works />
       <Team />
+      <Footer />
     </>
   );
 };

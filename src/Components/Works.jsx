@@ -19,7 +19,7 @@ const Works = () => {
 
   return (
     <div
-      className="bg-[#005cef] w-full flex justify-center items-start min-h-[100vh] max-md:min-h-[110vh] mt-20"
+      className="bg-[#005cef] w-full flex justify-center items-start min-h-[100vh] max-md:min-h-[110vh] mt-20 max-w-screen"
       id="works"
       style={{ userSelect: "none" }}
     >

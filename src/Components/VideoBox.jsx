@@ -3,7 +3,7 @@ import { VideoForBox } from "../assets/index";
 
 const VideoBox = () => {
   return (
-    <div className="w-full h-screen flex justify-center items-center max-md:h-min">
+    <div className="w-full h-screen flex justify-center items-center max-md:h-min max-w-screen">
       <video
         className="w-full h-full object-cover z-30"
         playsInline
