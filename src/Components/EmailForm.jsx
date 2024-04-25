@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
+import "../fonts.css";
 
 const EmailForm = () => {
   const [name, setName] = useState("");
@@ -24,7 +25,7 @@ const EmailForm = () => {
     emailjs
       .send(serviceId, templateId, templateParams, publicKey)
       .then((response) => {
-        console.log("Email send succesfully", response);
+        console.log("Email sent succesfully", response);
         setName("");
         setEmail("");
         setMessage("");

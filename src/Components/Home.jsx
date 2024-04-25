@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { HomeImage, DownArrow } from "../assets/index";
 import "./styles.css";
+import "../fonts.css";
 import About from "./About";
 import Arrow from "./Arrow";
 
@@ -23,7 +24,7 @@ const Home = () => {
                 />
               </div>
               <div className="wrapper z-50">
-                <h1 className="hero-title text-9xl max-md:text-8xl">
+                <h1 className="poppins-semibold pt-20 hero-title text-9xl max-md:text-6xl">
                   Design&nbsp;
                   <br />
                   Club.
