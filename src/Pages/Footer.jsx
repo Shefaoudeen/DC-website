@@ -33,7 +33,7 @@ const Footer = (props) => {
               </h2>
             </div>
 
-            <div className="pt-20 z-20 max-md:text-xl">
+            <div className="pt-20 max-md:pt-10 z-20 max-md:text-xl">
               <h3 className="text-start text-2xl poppins-regular text-[white] max-md:text-xl">
                 Address:
               </h3>

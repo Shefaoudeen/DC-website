@@ -21,7 +21,7 @@ const Works = () => {
 
   return (
     <div
-      className="bg-[#005cef] w-full flex justify-center items-start h-[120vh]  max-md:min-h-[110vh] mt-20 max-w-screen"
+      className="bg-[#005cef] max-md:min-h-[130vh] w-full flex justify-center items-start h-[120vh] mt-20 max-w-screen"
       id="works"
       style={{ userSelect: "none" }}
     >
@@ -31,8 +31,8 @@ const Works = () => {
           Our Works.
         </h1>
 
-        <div className="min-h-[70%] poppins-regular pt-5 text-[#0b46a3] text-opacity-80 max-md:text-2xl relative mt-10 max-md:px-5">
-          <p className="text-justify md:leading-[80px] max-md:text-center">
+        <div className=" poppins-regular py-5 text-[#0b46a3] text-opacity-80 max-md:text-2xl relative mt-10 max-md:px-5">
+          <p className="text-justify md:leading-[80px] max-md:text-center pb-10">
             {works.map((activity, id) => {
               return (
                 <span
