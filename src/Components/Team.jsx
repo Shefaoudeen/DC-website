@@ -2,7 +2,6 @@ import React from "react";
 import Footer from "../Pages/Footer";
 import "./Team.css";
 import { team } from "../Data/team";
-import { Logo } from "../assets";
 import Social from "./Social";
 
 const lorem =
@@ -29,19 +28,32 @@ const Team = () => {
             >
               {" "}
               <div>
+<<<<<<< HEAD
+                <div className="max-w-[300px] min-w-[300px] relative min-h-[300px] bg-[#ffdd18] rounded-full flex justify-center items-center group cursor-pointer">
+                  <div className="absolute bg-[#c5a604] w-full h-full rounded-full -z-10 -translate-x-2 translate-y-2"></div>
+                  <img
+                    src={person.picture}
+                    alt="Team Member Picture"
+                    className="absolute scale-75"
+                  />
+                  <div className="relative max-w-[250px] min-w-[250px] cursor-pointer min-h-[250px] bg-blue-600 rounded-full origin-bottom group-hover:rotate-180 duration-[400ms]">
+=======
                 <div className="max-w-[300px] min-w-[300px] relative min-h-[300px] bg-yellow-400 rounded-full flex justify-center items-center group cursor-pointer">
                   <div className="absolute bg-yellow-600 w-full h-full rounded-full -z-10 -translate-x-2 translate-y-2"></div>
                   <img src={Logo} alt="" className="absolute scale-75" />
                   <div className="relative max-w-[250px] min-w-[250px] cursor-pointer min-h-[250px] bg-blue-600 max-md:hidden rounded-full origin-bottom group-hover:rotate-180 duration-[400ms]">
+>>>>>>> ce7353f73531b08ab33faa97a918d96bd3bdd536
                     <div className="absolute max-w-[20px] min-w-[20px] max-h-[20px] min-h-[20px] bg-orange-700 rounded-full  bottom-2 right-[50%]"></div>
                   </div>
                 </div>
               </div>
               <div className="pt-10 max-md:hidden">
-                <h1 className="text-[white] text-4xl font-bold">
+                <h1 className="text-[white] text-4xl poppins-semibold">
                   {person.name}
                 </h1>
-                <h5 className="text-[white] text-2xl">{person.designation}</h5>
+                <h5 className="text-[white] poppins-regular text-2xl">
+                  {person.designation}
+                </h5>
               </div>
             </div>
           );
