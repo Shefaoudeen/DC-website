@@ -23,7 +23,7 @@ const Team = () => {
             <div
               className={`flex w-[50%] ${
                 person.id % 2 !== 0 ? "justify-between" : "justify-between"
-              } ${
+              } max-md:justify-center ${
                 person.id % 2 === 0 ? "flex-row" : "flex-row-reverse"
               } gap-[200px] py-5 items-center`}
             >

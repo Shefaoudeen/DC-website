@@ -27,7 +27,7 @@ const Works = () => {
     >
       <Social />
       <div className="h-[100%] flex flex-col justify-start pt-20 w-[80%] max-sm:w-[90%]">
-        <h1 className="text-start text-8xl poppins-semibold text-[white] max-md:text-6xl h-[20%]">
+        <h1 className="text-start text-8xl poppins-semibold text-[white] max-md:text-6xl ">
           Our Works.
         </h1>
 
