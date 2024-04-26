@@ -11,7 +11,7 @@ const Social = () => {
 
   return (
     <button
-      className="fixed max-md:scale-75 -right-[100px] top-[40%]  w-[200px] h-[200px]  rounded-full bg-blue-500 hover:bg-blue-800 duration-150 ease-linear transition-colors z-[999]"
+      className="fixed -right-[100px] top-[40%]  w-[200px] h-[200px]  rounded-full bg-blue-500 hover:bg-blue-800 duration-150 ease-linear transition-colors z-[999]"
       onClick={changeState}
     >
       <div

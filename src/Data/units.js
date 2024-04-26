@@ -5,10 +5,11 @@ const units = [
     id: 1,
     division: "PRIME",
     description1:
-      "Welcome  to PRIME! We specialize in crafting compelling visuals using adobe photoshop and illustrator. With projects like ",
-    works: "REJOUIR, NEURA, MAGAZINES and UNIVERSITY CALENDERS",
+      "This is PRIME! We specialize in crafting compelling visuals using Adobe Photoshop, Adobe Illustrator and much more. With projects like ",
+    works:
+      "Rejouir-Pecofes, Neura 2023, Reflections Newsletter and PTU 2024 Calendar",
     description2:
-      ", our goals is to leave a everlasting impression with powerful designs",
+      ", our goal is to leave a everlasting impression with powerful designs.",
     motto: "Innovate, Create, Design!",
     video: luffy,
     link: "/prime",
@@ -18,7 +19,7 @@ const units = [
     id: 2,
     division: "VIDEO",
     description1:
-      "Welcome  to VIDEO! where we harness After Effects, Premiere Pro, Blender, Da Vinci Resolve, Izotope and More! Past projects feature ",
+      "Welcome to VIDEO! where we harness After Effects, Premiere Pro, Blender, Da Vinci Resolve, Izotope and More! Past projects feature ",
     works: "UNIVERSITY INTRO, SYMPOSIUM TRAILERS and BEYOND",
     description2: ". Let's craft cinematic experiences together",
     motto: "Lights, Camera, Edit!",
@@ -29,7 +30,7 @@ const units = [
   {
     id: 3,
     division: "DEVELOPMENT",
-    description1: "Welcome  to PRIME! We create and maintain ",
+    description1: "Welcome to PRIME! We create and maintain ",
     works: "UNIVERSITY WEBSITE and PORTFOLIOS ",
     description2:
       ", with technologies like REACT, NODE AND VARIOUS JAVASCRIPT FRAMEWORKS. From concept to execution, Let's collaborate to realize your digital vision!",

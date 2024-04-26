@@ -1,6 +1,7 @@
-const white = "#ffffff";
-const dark_blue_1 = "#01255e";
-const blue_1 = "#005cef";
-const red_1 = "#f43f5e";
+/*Colors used*/
 
-export { white, dark_blue_1, blue_1, red_1 };
+const yellow = "#ffdd18";
+const blue = "#005cef";
+const red = "#ff1f25";
+
+export { yellow, blue, red };

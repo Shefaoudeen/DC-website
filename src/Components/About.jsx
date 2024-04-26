@@ -4,17 +4,16 @@ import "../fonts.css";
 const About = () => {
   return (
     <div className="bg-[#005cef] w-full min-h-screen flex justify-center items-center ">
-      <div className="flex flex-col justify-center w-[75%] max-sm:w-[90%]  z-20 max-md:text-xl pt-10 px-5">
-        {/* color change */}
-        <h1 className="text-[#b3c8e9] poppins-semibold text-7xl max-md:text-4xl pb-10 max-md:pb-5">
-          Who we are?
+      <div className="flex flex-col justify-center w-[75%] max-sm:w-[90%]  z-20 max-md:text-xl px-5">
+        <h1 className="text-[#0b46a3] text-opacity-80 poppins-semibold text-8xl max-md:text-4xl pb-10">
+          Who are we?
         </h1>
         <h1 className="text-[white] poppins-semibold text-4xl leading-tight pt-5 max-md:text-2xl text-justify md:py-20">
           Established in 2019 by visionary student founders Rupam Chirom, Najmu
           Sehar Wani, Hemachandar R and Ram Vignesh B under the guidance of
           Faculty Dr. Shanthi Simon, Puducherry Technological University's{" "}
           <a
-            className="text-"
+            className="hover:text-[#ffdd18] transition ease-in-out delay-60"
             href="https://ptuniv.edu.in/4c/design-club"
             target="_blank"
           >
@@ -24,25 +23,24 @@ const About = () => {
           the club shapes the university's identity through dynamic design
           initiatives.
         </h1>
-        <h4 className="text-[white] poppins-extrathin text-justify py-5 max-md:text-lg">
-          Since its inception, the Design Club has been a catalyst for
-          innovation, spearheading numerous impactful projects across various
-          domains. Notable achievements include the launch of the university's
-          website, PTU Logo, and PTU Official 2024 Calendar. The club has also
-          organized flagship events like Rejouir and Neura, reflecting its
-          dedication to excellence in design and creativity. Moreover, the club
-          has conducted workshops such as DC101 - Adobe Photoshop, engaging and
-          empowering students with valuable skills. With a diverse portfolio
-          that includes the creation of the PTU Official 2024 Calendar and
+        <h4 className="text-[white] poppins-regular text-opacity-80 text-justify py-5 max-md:text-lg">
+          Since its establishment, the Design Club has been a driving force for
+          innovation, leading numerous impactful projects across various
+          domains. Noteworthy accomplishments encompass the launch of the
+          university's website, development of the PTU Logo, creation of the PTU
+          Official 2024 Calendar, and publication of several symposium and club
+          magazines. The club has also contributed designs for festivals and
+          symposium events like Rejouir and Neura, showcasing its commitment to
+          design excellence and creativity. With a diverse portfolio including
           workshops such as DC101 - Adobe Photoshop, the club remains at the
           forefront of design innovation within the university community.
-          Explore more about our endeavors and achievements at our{" "}
-          <a
-            className="underline"
-            href="https://ptuniv.edu.in/4c/design-club"
-            target="_blank"
-          >
-            university website.
+          Explore more about DC's{" "}
+          <a href="/#units" className="underline">
+            units
+          </a>{" "}
+          and their{" "}
+          <a href="/#works" className="underline">
+            works.
           </a>
         </h4>
       </div>
