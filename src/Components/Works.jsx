@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./styles.css";
 import { works } from "../Data/works";
 import "./work.css";
+import "../fonts.css";
 import Arrow from "./Arrow";
 import { data } from "autoprefixer";
 import Social from "./Social";
@@ -26,16 +27,16 @@ const Works = () => {
     >
       <Social />
       <div className="h-[100%] flex flex-col justify-start pt-20 w-[80%] max-sm:w-[90%]">
-        <h1 className="text-start text-8xl font-bold text-[white] max-md:text-6xl h-[20%]">
+        <h1 className="text-start text-8xl poppins-semibold text-[white] max-md:text-6xl h-[20%]">
           Our Works.
         </h1>
 
-        <div className="min-h-[70%] font-bold  pt-5 text-[#7599d3] max-md:text-2xl relative mt-10 max-md:px-5">
+        <div className="min-h-[70%] poppins-regular pt-5 text-[#0b46a3] text-opacity-80 max-md:text-2xl relative mt-10 max-md:px-5">
           <p className="text-justify md:leading-[80px] max-md:text-center">
             {works.map((activity, id) => {
               return (
                 <span
-                  className="text-5xl hover:text-white max-md:flex max-md:justify-center max-md:py-2.5  transition-all delay-50 ease-linear cursor-pointer max-md:text-xl max-md:text-white px-5 max-md:px-10 md:border-l-none md:border-r-none border-[#7599d3]"
+                  className="text-5xl hover:text-white max-md:flex max-md:justify-center max-md:py-2.5  transition-all delay-50 ease-linear cursor-pointer max-md:text-xl max-md:text-white max-md:px-10 md:border-l-none md:border-r-none border-[#7599d3]"
                   onClick={() => funcCall(id)}
                 >
                   {activity.title}
@@ -46,7 +47,7 @@ const Works = () => {
           <div
             id="slide"
             className={`w-[100%] h-min ${
-              slide ? "bg-[#4d89e9]" : "bg-[#005cef]"
+              slide ? "bg-[#0b46a3]" : "bg-[#005cef]"
             } absolute top-0 ease-linear 
             ${slide ? `right-[0%]` : `right-[100%]`} 
             transition-all delay-100 z-10 ${
