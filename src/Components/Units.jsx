@@ -84,7 +84,7 @@ const Units = () => {
                       <h1
                         className={`text-[${checkColor2(
                           dataItems.id
-                        )}] text-7xl poppins-bold transition-colors delay-5 ease-linear max-sm:text-4xl`}
+                        )}] text-7xl poppins-bold transition-colors delay-5 ease-linear max-md:text-3xl`}
                       >
                         {dataItems.division}
                       </h1>

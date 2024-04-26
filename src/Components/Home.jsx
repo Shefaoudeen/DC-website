@@ -10,7 +10,7 @@ import Social from "./Social";
 const Home = () => {
   return (
     <div
-      className="relative flex flex-col items-center justify-start w-full min-h-[100vh] select-none max-w-screen"
+      className="relative  flex flex-col items-center justify-start w-full min-h-[100vh] select-none max-w-screen"
       id="home"
     >
       <Social />
@@ -18,15 +18,15 @@ const Home = () => {
         <div className="flex flex-col justify-center w-[100%] max-sm:w-[90%] home-custom-1 ">
           <div className="w-full h-full flex justify-start max-md:-ml-20  items-start max-sm:text-6xl">
             <section className="hero relative">
-              <div id="anim-mask" className="ease-in-out scale-75">
+              <div id="anim-mask" className="ease-in-out ">
                 <img
                   src={HomeImage}
                   alt=""
-                  className="square z-10 max-md:scale-75 max-md:-translate-x-[300px] max-md:-translate-y-[100px]"
+                  className="square z-10 max-md:scale-75 max-md:-translate-x-[350px] max-md:-translate-y-[100px]"
                 />
               </div>
               <div className="wrapper z-50">
-                <h1 className="poppins-semibold pt-20 hero-title text-9xl max-md:text-6xl">
+                <h1 className="poppins-semibold pt-20 hero-title text-9xl max-md:text-8xl">
                   Design&nbsp;
                   <br />
                   Club.
