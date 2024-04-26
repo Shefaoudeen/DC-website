@@ -24,8 +24,8 @@ const About = () => {
           initiatives.
         </h1>
         <h4 className="text-[white] poppins-regular text-opacity-80 text-justify py-5 max-md:text-lg">
-          User Since its establishment, the Design Club has been a driving force
-          for innovation, leading numerous impactful projects across various
+          Since its establishment, the Design Club has been a driving force for
+          innovation, leading numerous impactful projects across various
           domains. Noteworthy accomplishments encompass the launch of the
           university's website, development of the PTU Logo, creation of the PTU
           Official 2024 Calendar, and publication of several symposium and club
