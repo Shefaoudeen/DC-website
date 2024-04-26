@@ -4,6 +4,7 @@ import { UpArrow } from "../assets/index";
 import { useParams } from "react-router-dom";
 import EmailForm from "../Components/EmailForm";
 import Social from "../Components/Social";
+import "../Data/color.js";
 
 const Footer = (props) => {
   let { id } = useParams();

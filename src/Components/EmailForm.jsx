@@ -46,14 +46,14 @@ const EmailForm = () => {
         placeholder="Your Name"
         value={name}
         onChange={(e) => setName(e.target.value)}
-        className="font-bold bg-slate-300 px-4 py-2 rounded-lg shadow-xl w-full"
+        className="poppins-regular bg-slate-300 px-4 py-2 rounded-lg shadow-xl w-full"
       />
       <input
         type="email"
         placeholder="Your Email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-        className="font-bold bg-slate-300 px-4 py-2 rounded-lg shadow-xl w-full"
+        className="poppins-regular bg-slate-300 px-4 py-2 rounded-lg shadow-xl w-full"
       />
       <textarea
         name="message"
@@ -63,13 +63,13 @@ const EmailForm = () => {
         value={message}
         placeholder="Enter your message"
         onChange={(e) => setMessage(e.target.value)}
-        className="font-bold bg-slate-300 px-4 py-2 rounded-lg shadow-xl w-full"
+        className="poppins-regular bg-slate-300 px-4 py-2 rounded-lg shadow-xl w-full"
       />
       <button
         type="submit"
-        className="bg-orange-400 py-2 rounded-xl w-fit px-4 text-xl font-bold text-white"
+        className="bg-[#005cef] py-2 rounded-xl w-fit px-4 text-xl poppins-medium text-white"
       >
-        Send Email
+        Send
       </button>
     </form>
   );

@@ -77,14 +77,14 @@ const Units = () => {
                       <h1
                         className={`text-[${checkColor1(
                           dataItems.id
-                        )}] text-2xl font-semibold transition-colors delay-5 ease-linear`}
+                        )}] text-2xl pl-1 poppins-thin transition-colors delay-5 ease-linear`}
                       >
                         {dataItems.motto}
                       </h1>
                       <h1
                         className={`text-[${checkColor2(
                           dataItems.id
-                        )}] text-7xl font-bold transition-colors delay-5 ease-linear max-sm:text-4xl`}
+                        )}] text-7xl poppins-bold transition-colors delay-5 ease-linear max-sm:text-4xl`}
                       >
                         {dataItems.division}
                       </h1>
@@ -115,21 +115,23 @@ const Units = () => {
                       </div>
                       <div className="flex  gap-10 justify-center flex-col items-center w-1/2 h-full max-lg:w-full bg-rose-600">
                         <div className="flex  gap-10 justify-center flex-col items-center w-full h-full bg-rose-600">
-                          <div className="text-white text-5xl font-bold font-sans w-[80%] max-sm:text-4xl">
+                          <div className="text-white text-5xl poppins-bold font-sans w-[80%] max-sm:text-4xl">
                             <h1>DC {dataItems.division}</h1>
                           </div>
-                          <div className="w-[78%] text-xl text-white block max-sm:text-lg">
+                          <div className="w-[78%] text-xl text-white text-justify block max-sm:text-lg">
                             <span>{dataItems.description1}</span>
-                            <span className="font-bold">{dataItems.works}</span>
+                            <span className="poppins-regular">
+                              {dataItems.works}
+                            </span>
                             <span>{dataItems.description2}</span>
                           </div>
                           <div className="flex justify-start w-[80%] relative">
                             <Link to={dataItems.link} className="z-10">
-                              <div className="bg-yellow-400 w-[175px] justify-start z-10 px-6 py-4 font-bold text-xl hover:translate-x-3 hover:-translate-y-3 transition-all delay-100 ease-linear">
+                              <div className="bg-[#ffdd18] w-[175px] justify-start z-10 px-6 py-4 poppins-semibold text-xl hover:translate-x-3 hover:-translate-y-3 transition-all delay-100 ease-linear">
                                 View Project
                               </div>
                             </Link>
-                            <div className="bg-yellow-600 h-full w-[175px] absolute"></div>
+                            <div className="bg-[#c5a604] h-full w-[175px] absolute"></div>
                           </div>
                         </div>
                       </div>

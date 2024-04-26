@@ -70,7 +70,9 @@ const Works = () => {
             </h1>
             <div className="flex cursor-pointer ml-10 justify-start w-[80%] relative mt-10">
               <div className="bg-yellow-400 w-[175px] justify-start z-10 px-6 py-4 font-bold text-xl hover:translate-x-3 hover:-translate-y-3 transition-all delay-100 ease-linear">
-                View Project
+                <a href={works[id].link} target="_blank">
+                  View Project
+                </a>
               </div>
 
               <div className="bg-yellow-600 h-full w-[175px] absolute"></div>
