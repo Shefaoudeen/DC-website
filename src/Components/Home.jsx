@@ -18,7 +18,7 @@ const Home = () => {
         <div className="flex flex-col justify-center w-[100%] max-sm:w-[90%] home-custom-1 ">
           <div className="w-full h-full flex justify-start max-md:-ml-20  items-start max-sm:text-6xl">
             <section className="hero relative">
-              <div id="anim-mask" className="ease-in-out">
+              <div id="anim-mask" className="ease-in-out scale-75">
                 <img
                   src={HomeImage}
                   alt=""
