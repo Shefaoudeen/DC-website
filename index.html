@@ -33,8 +33,9 @@
         title.style.transform =
           "translateX(" + scrollTop + "px) translateY(" + scrollTop + "px)";
         var circleAnimation = this.document.getElementById("circle");
-        if (scrollTop > 2500) {
-          let movement = scrollTop - 2500;
+        if (scrollTop > home.offsetHeight + footer.offsetHeight - 50) {
+          let movement =
+            scrollTop - home.offsetHeight - footer.offsetHeight + 50;
           circleAnimation.style.transform = "translateX(" + movement + "px)";
         }
       };

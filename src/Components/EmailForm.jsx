@@ -67,7 +67,7 @@ const EmailForm = () => {
       />
       <button
         type="submit"
-        className="bg-[#005cef] max-md:bg-yellow-300 cursor-pointer py-2 rounded-xl w-fit px-4 text-xl poppins-medium text-white"
+        className="bg-[#005cef] cursor-pointer py-2 rounded-xl w-fit px-4 text-xl poppins-medium text-white"
       >
         Send
       </button>

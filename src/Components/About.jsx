@@ -5,10 +5,10 @@ const About = () => {
   return (
     <div className="bg-[#005cef] w-full min-h-screen flex justify-center items-center ">
       <div className="flex flex-col justify-center w-[75%] max-sm:w-[90%]  z-20 max-md:text-xl px-5">
-        <h1 className="text-[#0b46a3] text-opacity-80 poppins-semibold text-8xl max-md:text-4xl pb-10 max-md:pt-10 max-md:pb-5">
+        <h1 className="text-[#0b46a3] text-opacity-80 poppins-semibold text-8xl max-md:text-4xl py-10 max-md:pt-10 max-md:pb-5">
           Who are we?
         </h1>
-        <h1 className="text-[white] poppins-semibold text-4xl leading-tight pt-5 max-md:text-2xl text-justify md:py-20">
+        <h1 className="text-[white] poppins-semibold text-4xl leading-tight pt-5 max-md:text-2xl text-justify md:py-10">
           Established in 2019 by visionary student founders Rupam Chirom, Najmu
           Sehar Wani, Hemachandar R and Ram Vignesh B under the guidance of
           Faculty Dr. Shanthi Simon, Puducherry Technological University's{" "}
