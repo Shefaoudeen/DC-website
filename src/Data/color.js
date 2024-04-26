@@ -1,3 +1,5 @@
+/*Colors used*/
+
 const yellow = "#ffdd18";
 const blue = "#005cef";
 const red = "#ff1f25";

@@ -77,7 +77,7 @@ const Units = () => {
                       <h1
                         className={`text-[${checkColor1(
                           dataItems.id
-                        )}] text-2xl pl-1 poppins-thin transition-colors delay-5 ease-linear`}
+                        )}] text-2xl pl-1 poppins-regular transition-colors delay-5 ease-linear`}
                       >
                         {dataItems.motto}
                       </h1>
@@ -127,8 +127,8 @@ const Units = () => {
                           </div>
                           <div className="flex justify-start w-[80%] relative">
                             <Link to={dataItems.link} className="z-10">
-                              <div className="bg-[#ffdd18] w-[175px] justify-start z-10 px-6 py-4 poppins-semibold text-xl hover:translate-x-3 hover:-translate-y-3 transition-all delay-100 ease-linear">
-                                View Project
+                              <div className="bg-[#ffdd18] text-[#ff1f25] w-[175px] justify-start z-10 px-6 py-4 poppins-semibold text-xl hover:translate-x-3 hover:-translate-y-3 transition-all delay-100 ease-linear">
+                                Dive Deeper
                               </div>
                             </Link>
                             <div className="bg-[#c5a604] h-full w-[175px] absolute"></div>

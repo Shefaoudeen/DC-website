@@ -5,10 +5,11 @@ const units = [
     id: 1,
     division: "PRIME",
     description1:
-      "Welcome to PRIME! We specialize in crafting compelling visuals using adobe photoshop and illustrator. With projects like ",
-    works: "REJOUIR, NEURA, MAGAZINES and UNIVERSITY CALENDERS",
+      "This is PRIME! We specialize in crafting compelling visuals using Adobe Photoshop, Adobe Illustrator and much more. With projects like ",
+    works:
+      "Rejouir-Pecofes, Neura 2023, Reflections Newsletter and PTU 2024 Calendar",
     description2:
-      ", our goals is to leave a everlasting impression with powerful designs",
+      ", our goal is to leave a everlasting impression with powerful designs.",
     motto: "Innovate, Create, Design!",
     video: luffy,
     link: "/prime",

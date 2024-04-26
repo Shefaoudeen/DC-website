@@ -5,12 +5,15 @@ import { team } from "../Data/team";
 import { Logo } from "../assets";
 import Social from "./Social";
 
+const lorem =
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+
 const Team = () => {
   return (
     <div className="bg-[#ff1f25] w-full flex flex-col justify-center items-center pt-20 z-50 relative max-w-screen">
       <Social />
       <div className="flex flex-col justify-start w-[80%] max-sm:w-[90%]">
-        <h1 className="text-[white] text-8xl font-bold max-sm:text-6xl">
+        <h1 className="text-[white] text-8xl poppins-semibold max-sm:text-6xl">
           Team DC.
         </h1>
       </div>

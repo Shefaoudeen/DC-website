@@ -61,21 +61,21 @@ const Works = () => {
               onClick={() => funcCall(id)}
             >
               <Arrow
-                className="bg-[#ffff00]"
-                color="bg-[#ffff00] group-hover:translate-y-10 duration-100 ease-linear"
+                className="bg-[#ffdd18]"
+                color="bg-[#ffdd18] group-hover:translate-y-10 duration-100 ease-linear"
               />
             </div>
             <h1 className="pt-20 md:px-10 max-md:text-lg">
               {works[id].description}
             </h1>
             <div className="flex cursor-pointer ml-10 justify-start w-[80%] relative mt-10">
-              <div className="bg-yellow-400 w-[175px] justify-start z-10 px-6 py-4 font-bold text-xl hover:translate-x-3 hover:-translate-y-3 transition-all delay-100 ease-linear">
+              <div className="bg-[#ffdd18] text-[#005cef] w-[190px] justify-center z-10 px-6 py-4 poppins-semibold text-xl hover:translate-x-3 hover:-translate-y-3 transition-all delay-100 ease-linear">
                 <a href={works[id].link} target="_blank">
-                  View Project
+                  Open Sesame
                 </a>
               </div>
 
-              <div className="bg-yellow-600 h-full w-[175px] absolute"></div>
+              <div className="bg-[#c5a604] h-full w-[175px] absolute"></div>
             </div>
           </div>
         </div>

@@ -17,7 +17,7 @@ const Footer = (props) => {
       <Social />
       <div className="flex flex-col justify-start w-[80%] max-sm:w-[90%] max-md:pt-10">
         <div className="flex flex-col justify-center w-full h-[150px] border-b-[10px] max-md:border-b-[4px] max-md:h-[90px] border-[white] max-sm:w-[90%] z-20">
-          <h1 className="text-start text-8xl font-bold text-[white] max-md:text-5xl max-md:font-semibold ">
+          <h1 className="text-start text-8xl poppins-semibold text-[white] max-md:text-5xl max-md:font-semibold ">
             Say hello.
           </h1>
         </div>
@@ -25,19 +25,19 @@ const Footer = (props) => {
         <div className="flex w-full justify-between items-center max-md:flex-col">
           <div className="flex flex-col justify-center">
             <div className=" max-md:pt-10 z-20">
-              <h3 className="text-start text-2xl font-bold text-[white]">
+              <h3 className="text-start text-2xl poppins-regular text-[white]">
                 Email:
               </h3>
-              <h2 className="email-underline text-start text-4xl font-bold max-md:text-2xl text-[white] pt-5 select-text">
+              <h2 className="email-underline text-start text-4xl poppins-medium max-md:text-2xl text-[white] pt-5 select-text">
                 designclub@ptuniv.edu.in
               </h2>
             </div>
 
             <div className="pt-20 z-20 max-md:text-xl">
-              <h3 className="text-start text-2xl font-bold text-[white] max-md:text-xl">
+              <h3 className="text-start text-2xl poppins-regular text-[white] max-md:text-xl">
                 Address:
               </h3>
-              <h2 className="text-start text-2xl text-[white] pt-5 z-20 max-md:text-xl">
+              <h2 className="text-start poppins-regular text-xl text-[white] pt-5 z-20 max-md:text-xl">
                 Puducherry Technological University&nbsp;
                 <br />
                 East Coast Road&nbsp;
