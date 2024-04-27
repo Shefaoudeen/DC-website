@@ -27,7 +27,7 @@ const Team = () => {
               } md:gap-[200px] max-md:gap-10 md:py-5 items-center max-md:flex-col`}
             >
               {" "}
-              <div>
+              <div className="max-md:scale-90">
                 <div className="max-w-[400px] min-w-[400px] relative min-h-[400px] bg-[#ffdd18] rounded-full flex justify-center items-center group cursor-pointer">
                   <div className="absolute bg-[#c5a604] w-full h-full rounded-full -z-10 -translate-x-2 translate-y-2"></div>
                   <img
