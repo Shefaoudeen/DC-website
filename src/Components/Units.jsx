@@ -50,7 +50,7 @@ const Units = () => {
 
   return (
     <div
-      className="flex justify-center items-center w-full min-h-screen max-w-screen pt-10"
+      className="flex justify-center items-center w-full min-h-screen max-w-screen pt-10 select-none"
       style={{ userSelect: "none" }}
       id="units"
     >

@@ -21,7 +21,7 @@ const Works = () => {
 
   return (
     <div
-      className="bg-[#005cef] max-md:min-h-[140vh] w-full flex justify-center items-center h-[105vh] mt-20 max-w-screen"
+      className="bg-[#005cef] max-md:min-h-[140vh] w-full flex justify-center items-center h-[105vh] mt-20 max-w-screen select-none"
       id="works"
       style={{ userSelect: "none" }}
     >
@@ -70,8 +70,12 @@ const Works = () => {
             </h1>
             <div className="flex cursor-pointer ml-10 justify-start w-[80%] relative mt-10">
               <div className="bg-[#ffdd18] text-[#005cef] w-[190px] justify-center z-10 px-6 py-4 poppins-semibold text-xl hover:translate-x-3 hover:-translate-y-3 transition-all delay-100 ease-linear">
-                <a href={works[id].link} target="_blank">
-                  Open Sesame
+                <a
+                  href={works[id].link}
+                  target="_blank"
+                  className="min-w-full min-h-full hover:underline"
+                >
+                  <h1 className="w-full h-full">Open Sesame</h1>
                 </a>
               </div>
 

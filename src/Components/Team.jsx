@@ -9,7 +9,7 @@ const lorem =
 
 const Team = () => {
   return (
-    <div className="bg-[#ff1f25] w-full flex flex-col justify-center items-center pt-20 pb-20 z-50 relative max-w-screen">
+    <div className="bg-[#ff1f25] select-none w-full flex flex-col justify-center items-center pt-20 pb-20 z-50 relative max-w-screen">
       <Social />
       <div className="flex flex-col justify-start w-[80%] max-sm:w-[90%]">
         <h1 className="text-[white] text-8xl poppins-semibold max-sm:text-6xl">
