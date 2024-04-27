@@ -35,7 +35,11 @@ const Team = () => {
                     alt="Team Member Picture"
                     className="absolute scale-75"
                   />
+<<<<<<< HEAD
                   <div className="relative max-w-[350px] min-w-[350px] cursor-pointer min-h-[350px] bg-[#005cef] rounded-full origin-bottom group-hover:rotate-180 duration-[400ms]">
+=======
+                  <div className="relative max-w-[250px] min-w-[250px] cursor-pointer min-h-[250px] max-md:hidden  bg-blue-600 rounded-full origin-bottom group-hover:rotate-180 duration-[400ms]">
+>>>>>>> a8f6c2aeb51131e5c164ae967663dbe418d820ef
                     <div className="absolute max-w-[20px] min-w-[20px] max-h-[20px] min-h-[20px] bg-orange-700 rounded-full  bottom-2 right-[50%]"></div>
                   </div>
                 </div>
