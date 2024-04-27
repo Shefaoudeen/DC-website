@@ -69,7 +69,7 @@ const Development = () => {
           <div className="py-10">
             <h1 className={`text-[${red}] poppins-bold text-4xl`}>Brief</h1>
           </div>
-          <div className="flex w-[100%] text-xl max-md:flex-col md:gap-10 text-justify">
+          <div className="flex w-[100%] poppins-regular text-xl max-md:flex-col md:gap-10 text-justify">
             <span className="text-gray-600 w-1/2 max-md:w-full">
             The Development Unit, created as part of the DC 2024 slate, is an essential division responsible for all coding-related tasks within the club. Using a variety of technologies such as ReactJS, Vanilla JavaScript, and CSS frameworks like Tailwind and Bootstrap, as well as the MERN Stack, our team tackles a wide range of projects. From developing interactive web applications to creating robust backend systems, the Development Unit ensures that every technical aspect of our projects is executed with precision and excellence.
             </span>
@@ -84,7 +84,7 @@ const Development = () => {
           <div className="py-10">
             <h1 className={`text-[${red}] poppins-bold text-4xl`}>Works</h1>
           </div>
-          <div className="flex w-[100%] text-xl max-md:flex-col text-justify gap-10">
+          <div className="flex w-[100%] poppins-regular text-xl max-md:flex-col text-justify gap-10">
             <span className="text-gray-600 w-1/2 max-md:w-full">
             Before the club split into specialized units, we were responsible for developing the PTU website and its maintenance. However, since the formation of the Development Unit, we have taken on more ambitious projects. Our first major project is the website you are currently browsing, the DC portfolio.
             </span>

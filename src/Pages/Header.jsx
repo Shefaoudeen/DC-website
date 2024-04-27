@@ -9,11 +9,15 @@ const Header = () => {
     <div className="flex justify-center text-2xl  w-full" id="nav">
       <div className="flex justify-between max-md:justify-center w-[80%] max-md:w-[90%] border-b-4 border-black py-5">
         <div>
-          <img src={Logo} className="w-[50px] max-md:hidden" />
+          <a href="https://ptu-designclub.netlify.app">
+            <img src={Logo} className="w-[50px] max-md:hidden" />
+          </a>
         </div>
 
         <div>
-          <img src={DC24} className="w-[100px]" />
+          <a href="https://ptu-designclub.netlify.app">
+            <img src={DC24} className="w-[100px]" />
+          </a>
         </div>
 
         <div className="flex justify-around items-center max-md:hidden">
