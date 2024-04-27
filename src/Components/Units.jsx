@@ -118,9 +118,9 @@ const Units = () => {
                           <div className="text-white text-5xl poppins-bold font-sans w-[80%] max-sm:text-4xl">
                             <h1>DC {dataItems.division}</h1>
                           </div>
-                          <div className="w-[78%] text-xl text-white text-justify block max-sm:text-lg">
+                          <div className="w-[78%] text-xl poppins-regular text-white text-justify block max-sm:text-lg">
                             <span>{dataItems.description1}</span>
-                            <span className="poppins-regular">
+                            <span className="poppins-bold">
                               {dataItems.works}
                             </span>
                             <span>{dataItems.description2}</span>

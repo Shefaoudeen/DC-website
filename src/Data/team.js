@@ -1,9 +1,9 @@
-import { Sathyamurthy, Yogeshwaran, Kuhan } from "../assets";
+import { Sathiyamurthy, Yogeshwaran, Kuhan, Devanathan } from "../assets";
 
 const team = [
   {
     id: 1,
-    picture: Sathyamurthy,
+    picture: Sathiyamurthy,
     name: "Dr. K. Sathiyamurthy",
     designation: "Faculty Member",
     unit: "",
@@ -14,7 +14,7 @@ const team = [
   },
   {
     id: 2,
-    picture: Sathyamurthy,
+    picture: Sathiyamurthy,
     name: "Yokeswary Anebarassane",
     designation: "Chief",
     unit: "",
@@ -47,7 +47,7 @@ const team = [
   },
   {
     id: 5,
-    picture: Sathyamurthy,
+    picture: Devanathan,
     name: "Devanathan",
     designation: "Vice President",
     unit: "",

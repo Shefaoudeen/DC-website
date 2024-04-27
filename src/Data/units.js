@@ -5,12 +5,11 @@ const units = [
     id: 1,
     division: "PRIME",
     description1:
-      "This is PRIME! We specialize in crafting compelling visuals using Adobe Photoshop, Adobe Illustrator and much more. With projects like ",
-    works:
-      "Rejouir-Pecofes, Neura 2023, Reflections Newsletter and PTU 2024 Calendar",
+      "At PRIME, our speciality lies in creating captivating visuals with Adobe Photoshop, Illustrator, and much more. From projects such as ",
+    works: "Rejouir, Neura, Reflections Newsletter and PTU 2024 Calendar",
     description2:
-      ", our goal is to leave a everlasting impression with powerful designs.",
-    motto: "Innovate, Create, Design!",
+      ", we aim to make a lasting impact on frames with impactful designs.",
+    motto: "Think, Design, Innovate!",
     video: luffy,
     link: "/prime",
     index: 30,
@@ -19,9 +18,9 @@ const units = [
     id: 2,
     division: "VIDEO",
     description1:
-      "Welcome to VIDEO! where we harness After Effects, Premiere Pro, Blender, Da Vinci Resolve, Izotope and More! Past projects feature ",
-    works: "UNIVERSITY INTRO, SYMPOSIUM TRAILERS and BEYOND",
-    description2: ". Let's craft cinematic experiences together",
+      "At VIDEO, we harness the power of After Effects, Premiere Pro, Blender, Da Vinci Resolve, and more! Our past projects include ",
+    works: "University Intro, Symposium Trailers",
+    description2: ", and beyond. we craft cinematic experiences together!",
     motto: "Lights, Camera, Edit!",
     video: zoro,
     link: "/video",
@@ -30,10 +29,10 @@ const units = [
   {
     id: 3,
     division: "DEVELOPMENT",
-    description1: "Welcome to PRIME! We create and maintain ",
-    works: "UNIVERSITY WEBSITE and PORTFOLIOS ",
+    description1: "In DEVELOPMENT, we specialize in creating and maintaining ",
+    works: "University Website and Portfolios ",
     description2:
-      ", with technologies like REACT, NODE AND VARIOUS JAVASCRIPT FRAMEWORKS. From concept to execution, Let's collaborate to realize your digital vision!",
+      "Utilizing technologies such as React, Node, and various JavaScript frameworks, we handle projects from concept to execution. We work together to bring a digital vision to life!",
     motto: "Coding Dreams into Reality!",
     video: sanji,
     link: "/development",

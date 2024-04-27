@@ -9,7 +9,7 @@ const lorem =
 
 const Team = () => {
   return (
-    <div className="bg-[#ff1f25] w-full flex flex-col justify-center items-center pt-20 z-50 relative max-w-screen">
+    <div className="bg-[#ff1f25] w-full flex flex-col justify-center items-center pt-20 pb-20 z-50 relative max-w-screen">
       <Social />
       <div className="flex flex-col justify-start w-[80%] max-sm:w-[90%]">
         <h1 className="text-[white] text-8xl poppins-semibold max-sm:text-6xl">
@@ -20,7 +20,7 @@ const Team = () => {
         {team.map((person) => {
           return (
             <div
-              className={`flex w-[50%] ${
+              className={`flex w-[70%] ${
                 person.id % 2 !== 0 ? "justify-between" : "justify-between"
               } max-md:justify-center ${
                 person.id % 2 === 0 ? "flex-row" : "flex-row-reverse"
@@ -28,14 +28,14 @@ const Team = () => {
             >
               {" "}
               <div>
-                <div className="max-w-[300px] min-w-[300px] relative min-h-[300px] bg-[#ffdd18] rounded-full flex justify-center items-center group cursor-pointer">
+                <div className="max-w-[400px] min-w-[400px] relative min-h-[400px] bg-[#ffdd18] rounded-full flex justify-center items-center group cursor-pointer">
                   <div className="absolute bg-[#c5a604] w-full h-full rounded-full -z-10 -translate-x-2 translate-y-2"></div>
                   <img
                     src={person.picture}
                     alt="Team Member Picture"
                     className="absolute scale-75"
                   />
-                  <div className="relative max-w-[250px] min-w-[250px] cursor-pointer min-h-[250px] bg-blue-600 rounded-full origin-bottom group-hover:rotate-180 duration-[400ms]">
+                  <div className="relative max-w-[350px] min-w-[350px] cursor-pointer min-h-[350px] bg-[#005cef] rounded-full origin-bottom group-hover:rotate-180 duration-[400ms]">
                     <div className="absolute max-w-[20px] min-w-[20px] max-h-[20px] min-h-[20px] bg-orange-700 rounded-full  bottom-2 right-[50%]"></div>
                   </div>
                 </div>
