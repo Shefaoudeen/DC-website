@@ -11,6 +11,7 @@ import Yogeshwaran from "./Yogeshwaran.png";
 import Sathiyamurthy from "./Sathiyamurthy.png";
 import Kuhan from "./Kuhan.png";
 import Devanathan from "./Devanathan.png";
+import Rocket from "./Rocket.png"
 
 export {
   luffy,
@@ -26,4 +27,5 @@ export {
   Sathiyamurthy,
   Kuhan,
   Devanathan,
+  Rocket,
 };

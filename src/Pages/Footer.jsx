@@ -68,7 +68,7 @@ const Footer = (props) => {
         <div className="w-[100vh] max-md:w-[70vh] max-md:h-[70vh] scale-[150%] h-[100vh] translate-y-[11.4rem] rounded-full bg-yellow-300"></div>
       </div>
       <div className="absolute bottom-0 pb-1 w-full bg-gray-900 z-[100] text-center">
-        <h1 className="text-white text-2xl py-2">
+        <h1 className="text-white text-xl py-2">
           Developed by{" "}
           <a
             href="https://www.linkedin.com/in/shefaoudeen-z"
