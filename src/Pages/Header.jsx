@@ -6,7 +6,7 @@ import "../fonts.css";
 
 const Header = () => {
   return (
-    <div className="flex justify-center text-2xl  w-full">
+    <div className="flex justify-center text-2xl  w-full" id="nav">
       <div className="flex justify-between max-md:justify-center w-[80%] max-md:w-[90%] border-b-4 border-black py-5">
         <div>
           <img src={Logo} className="w-[50px] max-md:hidden" />

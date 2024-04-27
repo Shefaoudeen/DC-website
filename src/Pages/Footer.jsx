@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 import EmailForm from "../Components/EmailForm";
 import Social from "../Components/Social";
 import "../Data/color.js";
+import Arrow from "../Components/Arrow.jsx";
 
 const Footer = (props) => {
   let { id } = useParams();
@@ -86,6 +87,11 @@ const Footer = (props) => {
           </a>
         </h1>
       </div>
+      <a href="#nav" className="cursor-pointer">
+        <div className="absolute rotate-180 cursor-pointer bottom-12 left-12 max-md:left-14  max-md:bottom-14 group">
+          <Arrow color="bg-orange-400 group-hover:translate-y-10 cursor-pointer duration-100 ease-linear" />
+        </div>
+      </a>
       <Social />
     </div>
   );
