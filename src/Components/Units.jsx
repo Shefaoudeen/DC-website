@@ -108,10 +108,14 @@ const Units = () => {
                       className={`h-[500px] duration-500 max-lg:h-[700px] flex max-lg:flex-col bg-[#ff1f25] transition-all delay-300 ease-linear`}
                     >
                       <div className="w-1/2 max-lg:w-full max-lg:h-[40%] h-full bg-[#005cef]">
-                        <img
-                          src={dataItems.video}
-                          className="w-full h-full object-cover"
-                        />
+                        <video className="w-full h-full object-cover"
+        playsInline
+        autoPlay
+        muted
+        loop
+                ><source src={dataItems.video} type="video/mp4" /></video>          
+                          
+                        
                       </div>
                       <div className="flex  gap-10 justify-center flex-col items-center w-1/2 h-full max-lg:w-full bg-[#ff1f25]">
                         <div className="flex  gap-10 justify-center flex-col items-center w-full h-full bg-[#ff1f25]">

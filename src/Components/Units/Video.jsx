@@ -36,7 +36,7 @@ const Video = () => {
             <div className="text-gray-600">
                 <h1>
                   <span className="text-black poppins-medium">Unit President: </span>
-                  Yogeshwaran
+                  Abhinavkumar
                 </h1>
                 <h1>
                   <span className="text-black poppins-medium">Inception: </span>
@@ -57,7 +57,7 @@ const Video = () => {
             <div className="w-3/5 max-md:w-full">
               <div className="m-4">
                 <h1 className="text-gray-600 text-justify poppins-regular">
-                The unit secretaries, comprising members from different academic years, include Sreeraam, Abhinavkumar, Ashwath Sundhar, and Kaushik Kumar.
+                The unit secretaries, comprising members from different academic years, include Sreeraam, Ashwath Sundhar, and Kaushik Kumar.
                 </h1>
               </div>
             </div>
@@ -82,7 +82,7 @@ const Video = () => {
       <div className="flex justify-center">
         <div className="w-[80%]">
           <div className="py-10">
-            <h1 className={`text-[${red}] poppins-bold text-4xl`}>Process</h1>
+            <h1 className={`text-[${red}] poppins-bold text-4xl`}>Works</h1>
           </div>
           <div className="flex w-[100%] poppins-regular text-xl max-md:flex-col text-justify gap-10">
             <span className="text-gray-600 w-1/2 max-md:w-full">

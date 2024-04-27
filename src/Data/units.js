@@ -1,4 +1,4 @@
-import { luffy, zoro, sanji } from "../assets";
+import { PrimeVideo, VideoVideo, DevelopmentVideo } from "../assets";
 
 const units = [
   {
@@ -10,7 +10,7 @@ const units = [
     description2:
       ", we aim to make a lasting impact on frames with impactful designs.",
     motto: "Think, Design, Innovate!",
-    video: luffy,
+    video: PrimeVideo,
     link: "/prime",
     index: 30,
   },
@@ -22,7 +22,7 @@ const units = [
     works: "University Intro, Symposium Trailers",
     description2: ", and beyond. we craft cinematic experiences together!",
     motto: "Lights, Camera, Edit!",
-    video: zoro,
+    video: VideoVideo,
     link: "/video",
     index: 20,
   },
@@ -34,7 +34,7 @@ const units = [
     description2:
       "Utilizing technologies such as React, Node, and various JavaScript frameworks, we handle projects from concept to execution. We work together to bring a digital vision to life!",
     motto: "Coding Dreams into Reality!",
-    video: sanji,
+    video: DevelopmentVideo,
     link: "/development",
     index: 10,
   },

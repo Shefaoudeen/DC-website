@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { HomeImage, DownArrow } from "../assets/index";
 import "./styles.css";
 import "../fonts.css";

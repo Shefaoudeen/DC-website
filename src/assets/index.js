@@ -1,10 +1,10 @@
-import luffy from "./luffy.gif";
-import zoro from "./zoro.gif";
-import sanji from "./sanji.gif";
+import PrimeVideo from "./Prime_1.mp4"
+import VideoVideo from "./Video_1.mp4"
+import DevelopmentVideo from "./Development_1.mp4"
 import HomeImage from "./home_square_pole.svg";
 import DownArrow from "./arrow-blue-long.svg";
 import UpArrow from "./arrow-white-long.svg";
-import VideoForBox from "./video-box.mp4";
+import VideoForBox from "./MainVideo.mp4";
 import Logo from "./logo.png";
 import DC24 from "./dc24.png";
 import Yogeshwaran from "./Yogeshwaran.png";
@@ -14,9 +14,9 @@ import Devanathan from "./Devanathan.png";
 import Rocket from "./Rocket.png"
 
 export {
-  luffy,
-  zoro,
-  sanji,
+  PrimeVideo,
+  VideoVideo,
+  DevelopmentVideo,
   HomeImage,
   DownArrow,
   UpArrow,
