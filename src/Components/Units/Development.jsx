@@ -82,9 +82,9 @@ const Development = () => {
       <div className="flex justify-center">
         <div className="w-[80%]">
           <div className="py-10">
-            <h1 className={`text-[${red}] poppins-bold text-4xl`}>Process</h1>
+            <h1 className={`text-[${red}] poppins-bold text-4xl`}>Works</h1>
           </div>
-          <div className="flex w-[100%] text-xl max-md:flex-col text-justify">
+          <div className="flex w-[100%] text-xl max-md:flex-col text-justify gap-10">
             <span className="text-gray-600 w-1/2 max-md:w-full">
             Before the club split into specialized units, we were responsible for developing the PTU website and its maintenance. However, since the formation of the Development Unit, we have taken on more ambitious projects. Our first major project is the website you are currently browsing, the DC portfolio.
             </span>

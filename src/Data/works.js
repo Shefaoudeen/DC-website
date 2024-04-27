@@ -39,7 +39,7 @@ const works = [
     title: "PTU Intro. ",
     link: "",
     description:
-      "Introducing a brand new university intro currently under production, directed by Gokulnath Pugazhendi, Secretary, and featuring performances by Manoj Kumar with Ashwath, and Abhinavkumar from DC. The video editing is handled by the talented team from the DC Video Unit, including Abhinavkumar, Ashwath, and Kaushik, under the guidance of Gokulnath Pugazhendi. Stay tuned for its release!",
+      "Introducing a brand new university intro currently under production, directed by Gokulnath Pugazhendi, Secretary, and featuring performances by Manoj Kumar with Ashwath, and Abhinavkumar from DC. The video editing is handled by the talented team from the DC Video Unit, including Abhinavkumar, Ashwath, and Kaushik Kumar, under the guidance of Gokulnath Pugazhendi. Stay tuned for its release!",
   },
   {
     title: "DC Pamphlet. ",
