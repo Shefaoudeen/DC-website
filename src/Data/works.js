@@ -55,19 +55,19 @@ const works = [
   },
   {
     title: "Placement Guide. ",
-    link: "https://drive.google.com/drive/folders/1hAzZcB8hFXBoI8S5ZUl54EBnL3LICFEr?usp=sharing",
+    link: "",
     description:
-      "9Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "The Placement Guide, an extensive documentation of the webinar on university placements conducted by Gokulnath, Secretary, and Krishna from DC, is currently undergoing design by Kuhan, President of DC. Stay tuned for the release of this valuable resource, tailored to enhance your understanding of placement processes and opportunities!",
   },
   {
     title: "Pattern Coding. ",
     link: "https://drive.google.com/drive/folders/1KhRlnpXLbCBDRoYOXgIAAM24LcZ2RgKN?usp=sharing",
     description:
-      "9Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "With the goal of enriching and nurturing the student community across all branches, the Pattern Coding Series was conceptualized and compiled by Gokulnath, Secretary of DC. This comprehensive series, aimed at enhancing coding skills, underwent meticulous proofreading by Krishna and Yokeswary Anebarassane, also members of DC.",
   },
   {
     title: "DC Portfolio. ",
-    link: "",
+    link: "https://ptu-designclub.netlify.app",
     description:
       "The DC Portfolio Website stands as the first project of the Development Unit in the DC'24 slate. This innovative website, developed by Shefaoudeen from the Development Unit, in collaboration with Kuhan, President, showcases the club's creative prowess. Employing a unique and unconventional style, the website features vibrant basic colors that accentuate design elements, reflecting the club's commitment to creativity and innovation.",
   },
