@@ -24,7 +24,7 @@ const Team = () => {
                 person.id % 2 !== 0 ? "justify-between" : "justify-between"
               } max-md:justify-center ${
                 person.id % 2 === 0 ? "flex-row" : "flex-row-reverse"
-              } gap-[200px] py-5 items-center`}
+              } md:gap-[200px] max-md:gap-10 md:py-5 items-center max-md:flex-col`}
             >
               {" "}
               <div>
@@ -35,12 +35,12 @@ const Team = () => {
                     alt="Team Member Picture"
                     className="absolute scale-75"
                   />
-                  <div className="relative max-w-[350px] min-w-[350px] cursor-pointer min-h-[350px] bg-[#005cef] rounded-full origin-bottom group-hover:rotate-180 duration-[400ms]">
+                  <div className="relative max-w-[350px] min-w-[350px] cursor-pointer min-h-[350px] max-md:hidden bg-[#005cef] rounded-full origin-bottom group-hover:rotate-180 duration-[400ms]">
                     <div className="absolute max-w-[20px] min-w-[20px] max-h-[20px] min-h-[20px] bg-orange-700 rounded-full  bottom-2 right-[50%]"></div>
                   </div>
                 </div>
               </div>
-              <div className="pt-10 max-md:hidden">
+              <div className="md:pt-10 ">
                 <h1 className="text-[white] text-4xl poppins-semibold">
                   {person.name}
                 </h1>

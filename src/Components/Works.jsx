@@ -21,7 +21,7 @@ const Works = () => {
 
   return (
     <div
-      className="bg-[#005cef] max-md:min-h-[130vh] w-full flex justify-center items-start h-[105vh] mt-20 max-w-screen"
+      className="bg-[#005cef] max-md:min-h-[140vh] w-full flex justify-center items-center h-[105vh] mt-20 max-w-screen"
       id="works"
       style={{ userSelect: "none" }}
     >

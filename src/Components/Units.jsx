@@ -57,7 +57,7 @@ const Units = () => {
       <Social />
       <div className="flex flex-col justify-center items-center w-[100%]">
         <div className="flex flex-col justify-center w-[80%] h-[150px] border-b-[10px] border-[#005cef] max-sm:w-[90%]">
-          <h1 className="text-start text-[#005cef] text-8xl poppins-semibold max-sm:text-7xl">
+          <h1 className="text-start text-[#005cef] text-8xl poppins-semibold max-md:text-5xl">
             Our Units.
           </h1>
         </div>
@@ -162,7 +162,7 @@ const Units = () => {
                           {dataItems.motto}
                         </h1>
                         <h1
-                          className={`text-[${red}] text-7xl font-bold transition-colors delay-5 ease-linear max-md:text-5xl max-md:font-semibold`}
+                          className={`text-[${red}] text-7xl font-bold transition-colors delay-5 ease-linear max-md:text-4xl max-md:font-semibold`}
                         >
                           {dataItems.division}
                         </h1>
