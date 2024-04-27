@@ -17,8 +17,8 @@ const Video = () => {
             </div>
           </a>
           <div>
-            <h1 className="text-8xl font-bold">DC VIDEO</h1>
-            <h1 className="text-xl font-medium text-gray-400 tracking-widest">
+            <h1 className="text-8xl poppins-bold">DC VIDEO</h1>
+            <h1 className="text-xl poppins-medium text-gray-400 tracking-widest">
               Lights, Camera, Edit!
             </h1>
           </div>
@@ -27,41 +27,37 @@ const Video = () => {
       <div className="flex justify-center">
         <div className="w-[80%]">
           <div className="py-10" id="about">
-            <h1 className={`text-[${red}] font-bold text-4xl`}>
-              About Project
+            <h1 className={`text-[${red}] poppins-bold text-4xl`}>
+              About
             </h1>
           </div>
           <div className="flex w-[100%] max-md:flex-col text-xl">
             <div className="w-2/5 max-md:w-full">
-              <div className="text-gray-600">
+            <div className="text-gray-600">
                 <h1>
-                  <span className="text-black font-medium">Client: </span>
-                  MakeReign
+                  <span className="text-black poppins-medium">Unit President: </span>
+                  Yogeshwaran
                 </h1>
                 <h1>
-                  <span className="text-black font-medium">Concept: </span>
-                  Okalpha
+                  <span className="text-black poppins-medium">Inception: </span>
+                  2024
                 </h1>
                 <h1>
-                  <span className="text-black font-medium">
-                    Creative Direction:{" "}
+                  <span className="text-black poppins-medium">
+                  Secretaries:{" "}
                   </span>
-                  Okalpha + MakeReign
+                  4
                 </h1>
                 <h1>
-                  <span className="text-black font-medium">Animation: </span>
-                  Okalpha
+                  <span className="text-black poppins-medium">Softwares: </span>
+                  Adobe Premiere Pro, After Effects, Blender, and Davinci Resolve
                 </h1>
               </div>
             </div>
             <div className="w-3/5 max-md:w-full">
               <div className="m-4">
-                <h1 className="text-gray-600">
-                  The bi-product of a brief to build a showreel, a set of idents
-                  needed to be created to be used across MakeReign collateral
-                  and to introduce the reel itself. Sometimes certain briefs are
-                  better than others. This brief was one of those times. An
-                  opportunity to learn and create.
+                <h1 className="text-gray-600 text-justify poppins-regular">
+                The unit secretaries, comprising members from different academic years, include Sreeraam, Abhinavkumar, Ashwath Sundhar, and Kaushik Kumar.
                 </h1>
               </div>
             </div>
@@ -71,19 +67,14 @@ const Video = () => {
       <div className="flex justify-center">
         <div className="w-[80%]">
           <div className="py-10">
-            <h1 className={`text-[${red}] font-bold text-4xl`}>Brief</h1>
+            <h1 className={`text-[${red}] poppins-bold text-4xl`}>Brief</h1>
           </div>
-          <div className="flex w-[100%] text-xl max-md:flex-col md:gap-10 text-justify">
+          <div className="flex w-[100%] poppins-regular text-xl max-md:flex-col md:gap-10 text-justify">
             <span className="text-gray-600 w-1/2 max-md:w-full">
-              And so it began. Since we have a larger task of building the
-              showreel itself, we split our 3D team to focus on the idents,
-              whilst the 2D team began building the larger reel. With such a
-              clean slate,
+            As part of the DC 2024 slate, the club has been divided into three vital units, and the VIDEO unit holds a significant position among them. Specializing in dynamic visual content, the VIDEO unit is the creative force behind all projects involving motion graphics and video production.
             </span>
             <span className="text-gray-600 w-1/2 max-md:w-full">
-              we made sure to spend time iterating on multiple potential routes.
-              The core approach was to build 5 different visual snippets, each
-              showcasing the hero MakeReign logo mark in unique vignettes.
+            Small yet highly impactful, the VIDEO unit thrives on challenges. From concept to execution, every project is meticulously crafted to deliver engaging and visually stunning results. With a dedicated focus on excellence, the VIDEO unit plays a crucial role within DC 2024, bringing ideas to life through the power of video.
             </span>
           </div>
         </div>
@@ -91,21 +82,15 @@ const Video = () => {
       <div className="flex justify-center">
         <div className="w-[80%]">
           <div className="py-10">
-            <h1 className={`text-[${red}] font-bold text-4xl`}>Process</h1>
+            <h1 className={`text-[${red}] poppins-bold text-4xl`}>Process</h1>
           </div>
-          <div className="flex w-[100%] text-xl max-md:flex-col text-justify gap-10">
+          <div className="flex w-[100%] poppins-regular text-xl max-md:flex-col text-justify gap-10">
             <span className="text-gray-600 w-1/2 max-md:w-full">
-              Working with Houdini, Redshift, and Cinema4D, we built growth,
-              smoke, collision, and inflation systems. Each of these were
-              tweaked and refined through iteration to finally get to a fidelity
-              we were all
+            The Video Unit of DC, a newly formed division as part of the DC 2024 slate, has already embarked on several exciting projects. From creating the PTU Intro to producing Symposium Teasers and the DC Intro, our team is dedicated to delivering high-quality video content that engages and inspires.
             </span>
 
             <span className="text-gray-600 w-1/2 max-md:w-full ">
-              happy with. A timely exercise, but a super insightful one.
-              Strangely, one of the most difficult tasks was getting a laser
-              projection to feel right. It's the easiest stuff that sometimes
-              hurts the most.
+            Currently, we have several projects in production, including the PTU Intro, Symposium Teasers, DC Intro, and more. With our talented team of videographers and editors, we are committed to producing visually compelling and impactful videos that showcase the best of DC. Stay tuned for these exciting releases!
             </span>
           </div>
         </div>
@@ -114,7 +99,7 @@ const Video = () => {
         <Link to="/" className="flex justify-center items-center group  w-full">
           <div className="w-[80%] flex justify-between items-center cursor-pointer">
             <div>
-              <h1 className={`text-6xl font-bold text-[${blue}]`}>
+              <h1 className={`text-6xl poppins-bold text-[${blue}]`}>
                 Other Units
               </h1>
             </div>

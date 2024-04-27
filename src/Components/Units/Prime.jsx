@@ -17,9 +17,9 @@ const Prime = () => {
             </div>
           </a>
           <div>
-            <h1 className="text-8xl font-bold">DC PRIME</h1>
-            <h1 className="text-xl font-medium text-gray-400 tracking-widest">
-              Innovate, Create, Design!
+            <h1 className="text-8xl poppins-bold">DC PRIME</h1>
+            <h1 className="text-xl poppins-medium text-gray-400 tracking-widest">
+              Think, Design, Innovate!
             </h1>
           </div>
         </div>
@@ -27,41 +27,37 @@ const Prime = () => {
       <div className="flex justify-center">
         <div className="w-[80%]" id="about">
           <div className="py-10">
-            <h1 className={`text-[${red}] font-bold text-4xl`}>
-              About Project
+            <h1 className={`text-[${red}] poppins-bold text-4xl`}>
+              About
             </h1>
           </div>
           <div className="flex w-[100%] max-md:flex-col text-xl">
             <div className="w-2/5 max-md:w-full">
               <div className="text-gray-600">
                 <h1>
-                  <span className="text-black font-medium">Client: </span>
-                  MakeReign
+                  <span className="text-black poppins-medium">Unit President: </span>
+                  Yogeshwaran
                 </h1>
                 <h1>
-                  <span className="text-black font-medium">Concept: </span>
-                  Okalpha
+                  <span className="text-black poppins-medium">Inception: </span>
+                  2024
                 </h1>
                 <h1>
-                  <span className="text-black font-medium">
-                    Creative Direction:{" "}
+                  <span className="text-black poppins-medium">
+                  Secretaries:{" "}
                   </span>
-                  Okalpha + MakeReign
+                  9
                 </h1>
                 <h1>
-                  <span className="text-black font-medium">Animation: </span>
-                  Okalpha
+                  <span className="text-black poppins-medium">Softwares: </span>
+                  Adobe Photoshop, Illustrator, and Spline
                 </h1>
               </div>
             </div>
             <div className="w-3/5 max-md:w-full">
               <div className="m-4">
-                <h1 className="text-gray-600">
-                  The bi-product of a brief to build a showreel, a set of idents
-                  needed to be created to be used across MakeReign collateral
-                  and to introduce the reel itself. Sometimes certain briefs are
-                  better than others. This brief was one of those times. An
-                  opportunity to learn and create.
+                <h1 className="text-gray-600 text-justify poppins-regular">
+                The unit secretaries, representing various years, include Devanathan B, Yogeshwaran, Uma Maheswari, Dhineshkumar, Devanathan, Shrikaanth, Chuniit, Pradheepraj, Mugesh Kumar, and Vishnu Vardhan.
                 </h1>
               </div>
             </div>
@@ -71,19 +67,14 @@ const Prime = () => {
       <div className="flex justify-center">
         <div className="w-[80%]">
           <div className="py-10">
-            <h1 className={`text-[${red}] font-bold text-4xl`}>Brief</h1>
+            <h1 className={`text-[${red}] poppins-bold text-4xl`}>Brief</h1>
           </div>
-          <div className="flex w-[100%] text-xl max-md:flex-col md:gap-10 text-justify">
+          <div className="flex w-[100%] poppins-regular text-xl max-md:flex-col md:gap-10 text-justify">
             <span className="text-gray-600 w-1/2 max-md:w-full">
-              And so it began. Since we have a larger task of building the
-              showreel itself, we split our 3D team to focus on the idents,
-              whilst the 2D team began building the larger reel. With such a
-              clean slate,
+            As part of the DC 2024 slate, the club has been divided into three vital units, and PRIME holds a prominent position among them. At PRIME, we specialize in creating captivating visuals using Adobe Photoshop, Illustrator, and a variety of other design tools. Whether it's designing posters, banners, or any other project that can be accomplished using Adobe Photoshop, Illustrator, and more, PRIME ensures that each task is executed with precision and creativity, leaving a lasting impact through our impactful designs.
             </span>
             <span className="text-gray-600 w-1/2 max-md:w-full">
-              we made sure to spend time iterating on multiple potential routes.
-              The core approach was to build 5 different visual snippets, each
-              showcasing the hero MakeReign logo mark in unique vignettes.
+            With a dedicated focus on visual excellence, PRIME plays a crucial role within DC 2024. From concept to execution, PRIME takes charge of every project that involves visual design, ensuring that each piece is delivered with the utmost creativity and attention to detail. Our talented team of designers strives to bring out the best in every project, creating visually stunning and impactful designs that leave a lasting impression.
             </span>
           </div>
         </div>
@@ -91,21 +82,15 @@ const Prime = () => {
       <div className="flex justify-center">
         <div className="w-[80%]">
           <div className="py-10">
-            <h1 className={`text-[${red}] font-bold text-4xl`}>Process</h1>
+            <h1 className={`text-[${red}] poppins-bold text-4xl`}>Works</h1>
           </div>
-          <div className="flex w-[100%] text-xl max-md:flex-col text-justify gap-10">
-            <span className="text-gray-600 w-1/2 max-md:w-full">
-              Working with Houdini, Redshift, and Cinema4D, we built growth,
-              smoke, collision, and inflation systems. Each of these were
-              tweaked and refined through iteration to finally get to a fidelity
-              we were all
+          <div className="flex w-[100%] poppins-regular text-xl max-md:flex-col text-justify gap-10">
+            <span className="text-gray-600 w-1/2 max-md:w-full">  
+            PRIME has been instrumental in designing various projects, including Rejouir-Pecofes, the university festival, Neura 2023, a symposium by the Department of Information Technology, and the PTU 2024 Calendar. Additionally, we have created magazines for various clubs, such as the Reflections Newsletter: Edition 1 for the Literary Club and the Fine Arts Club Magazine. Our portfolio also includes designing posters for university events, the DC Pamphlet, and much more.
             </span>
 
             <span className="text-gray-600 w-1/2 max-md:w-full ">
-              happy with. A timely exercise, but a super insightful one.
-              Strangely, one of the most difficult tasks was getting a laser
-              projection to feel right. It's the easiest stuff that sometimes
-              hurts the most.
+            Through our work, we aim to make a significant impact on every project we undertake. Whether it's designing visually stunning posters, creating captivating magazine layouts, or crafting memorable event materials, PRIME ensures that each project is executed with creativity, precision, and attention to detail.
             </span>
           </div>
         </div>
@@ -114,7 +99,7 @@ const Prime = () => {
         <Link to="/" className="flex justify-center items-center group  w-full">
           <div className="w-[80%] flex justify-between items-center cursor-pointer">
             <div>
-              <h1 className={`text-6xl font-bold text-[${blue}]`}>
+              <h1 className={`text-6xl poppins-bold text-[${blue}]`}>
                 Other Units
               </h1>
             </div>

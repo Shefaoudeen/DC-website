@@ -17,8 +17,8 @@ const Development = () => {
             </div>
           </a>
           <div>
-            <h1 className="text-8xl font-bold">DC DEVELOPMENT</h1>
-            <h1 className="text-xl font-medium text-gray-400 tracking-widest">
+            <h1 className="text-8xl poppins-bold">DC DEVELOPMENT</h1>
+            <h1 className="text-xl poppins-medium text-gray-400 tracking-widest">
               Coding Dreams into Reality!
             </h1>
           </div>
@@ -27,41 +27,37 @@ const Development = () => {
       <div className="flex justify-center">
         <div className="w-[80%]">
           <div className="py-10" id="about">
-            <h1 className={`text-[${red}] font-bold text-4xl`}>
-              About Project
+            <h1 className={`text-[${red}] poppins-bold text-4xl`}>
+              About
             </h1>
           </div>
           <div className="flex w-[100%] max-md:flex-col text-xl">
             <div className="w-2/5 max-md:w-full">
-              <div className="text-gray-600">
+            <div className="text-gray-600">
                 <h1>
-                  <span className="text-black font-medium">Client: </span>
-                  MakeReign
+                  <span className="text-black poppins-medium">Unit President: </span>
+                  Shefaoudeen
                 </h1>
                 <h1>
-                  <span className="text-black font-medium">Concept: </span>
-                  Okalpha
+                  <span className="text-black poppins-medium">Inception: </span>
+                  2024
                 </h1>
                 <h1>
-                  <span className="text-black font-medium">
-                    Creative Direction:{" "}
+                  <span className="text-black poppins-medium">
+                  Secretaries:{" "}
                   </span>
-                  Okalpha + MakeReign
+                  7
                 </h1>
                 <h1>
-                  <span className="text-black font-medium">Animation: </span>
-                  Okalpha
+                  <span className="text-black poppins-medium">Technologies: </span>
+                  MERN, TailwindCSS, and Bootstrap
                 </h1>
               </div>
             </div>
             <div className="w-3/5 max-md:w-full">
               <div className="m-4">
                 <h1 className="text-gray-600">
-                  The bi-product of a brief to build a showreel, a set of idents
-                  needed to be created to be used across MakeReign collateral
-                  and to introduce the reel itself. Sometimes certain briefs are
-                  better than others. This brief was one of those times. An
-                  opportunity to learn and create.
+                The unit secretaries, comprising members from different academic years, include Anish, Anupama, Cyrill, Sabarinathan, Harshit, and Dwaipayan
                 </h1>
               </div>
             </div>
@@ -71,19 +67,14 @@ const Development = () => {
       <div className="flex justify-center">
         <div className="w-[80%]">
           <div className="py-10">
-            <h1 className={`text-[${red}] font-bold text-4xl`}>Brief</h1>
+            <h1 className={`text-[${red}] poppins-bold text-4xl`}>Brief</h1>
           </div>
           <div className="flex w-[100%] text-xl max-md:flex-col md:gap-10 text-justify">
             <span className="text-gray-600 w-1/2 max-md:w-full">
-              And so it began. Since we have a larger task of building the
-              showreel itself, we split our 3D team to focus on the idents,
-              whilst the 2D team began building the larger reel. With such a
-              clean slate,
+            The Development Unit, created as part of the DC 2024 slate, is an essential division responsible for all coding-related tasks within the club. Using a variety of technologies such as ReactJS, Vanilla JavaScript, and CSS frameworks like Tailwind and Bootstrap, as well as the MERN Stack, our team tackles a wide range of projects. From developing interactive web applications to creating robust backend systems, the Development Unit ensures that every technical aspect of our projects is executed with precision and excellence.
             </span>
             <span className="text-gray-600 w-1/2 max-md:w-full">
-              we made sure to spend time iterating on multiple potential routes.
-              The core approach was to build 5 different visual snippets, each
-              showcasing the hero MakeReign logo mark in unique vignettes.
+            With a dedicated focus on technical excellence, the Development Unit plays a crucial role within DC 2024. Our team of skilled developers works tirelessly to bring projects to life, using the latest technologies and coding practices. Whether it's building dynamic web applications, implementing complex algorithms, or optimizing performance, the Development Unit is committed to delivering high-quality code that meets the club's standards of excellence.
             </span>
           </div>
         </div>
@@ -91,21 +82,15 @@ const Development = () => {
       <div className="flex justify-center">
         <div className="w-[80%]">
           <div className="py-10">
-            <h1 className={`text-[${red}] font-bold text-4xl`}>Process</h1>
+            <h1 className={`text-[${red}] poppins-bold text-4xl`}>Process</h1>
           </div>
           <div className="flex w-[100%] text-xl max-md:flex-col text-justify">
             <span className="text-gray-600 w-1/2 max-md:w-full">
-              Working with Houdini, Redshift, and Cinema4D, we built growth,
-              smoke, collision, and inflation systems. Each of these were
-              tweaked and refined through iteration to finally get to a fidelity
-              we were all
+            Before the club split into specialized units, we were responsible for developing the PTU website and its maintenance. However, since the formation of the Development Unit, we have taken on more ambitious projects. Our first major project is the website you are currently browsing, the DC portfolio.
             </span>
 
             <span className="text-gray-600 w-1/2 max-md:w-full ">
-              happy with. A timely exercise, but a super insightful one.
-              Strangely, one of the most difficult tasks was getting a laser
-              projection to feel right. It's the easiest stuff that sometimes
-              hurts the most.
+            As we continue to grow and expand our capabilities, there are many ongoing projects in the pipeline. From developing new web applications to optimizing existing systems, the Development Unit is dedicated to pushing the boundaries of what we can achieve with code. Stay tuned for more exciting projects from our team!
             </span>
           </div>
         </div>
@@ -114,7 +99,7 @@ const Development = () => {
         <Link to="/" className="flex justify-center items-center group  w-full">
           <div className="w-[80%] flex justify-between items-center cursor-pointer">
             <div>
-              <h1 className={`text-6xl font-bold text-[${blue}]`}>
+              <h1 className={`text-6xl poppins-bold text-[${blue}]`}>
                 Other Units
               </h1>
             </div>

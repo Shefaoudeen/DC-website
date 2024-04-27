@@ -27,7 +27,7 @@ const Units = () => {
   };
 
   let blue = "#005cef";
-  let red = "#f43f5e";
+  let red = "#ff1f25";
   let size1 = "500px";
   let size2 = "0px";
 
@@ -73,7 +73,7 @@ const Units = () => {
                   )}px] border-[#005cef] cursor-pointer`}
                 >
                   <div className="flex flex-col justify-center relative h-[200px]">
-                    <div className="text-[#f43f5e]">
+                    <div className="text-[#ff1f25]">
                       <h1
                         className={`text-[${checkColor1(
                           dataItems.id
@@ -113,9 +113,9 @@ const Units = () => {
                           className="w-full h-full object-cover"
                         />
                       </div>
-                      <div className="flex  gap-10 justify-center flex-col items-center w-1/2 h-full max-lg:w-full bg-rose-600">
-                        <div className="flex  gap-10 justify-center flex-col items-center w-full h-full bg-rose-600">
-                          <div className="text-white text-5xl poppins-bold font-sans w-[80%] max-sm:text-4xl">
+                      <div className="flex  gap-10 justify-center flex-col items-center w-1/2 h-full max-lg:w-full bg-[#ff1f25]">
+                        <div className="flex  gap-10 justify-center flex-col items-center w-full h-full bg-[#ff1f25]">
+                          <div className="text-white text-5xl poppins-bold w-[80%] max-sm:text-4xl">
                             <h1>DC {dataItems.division}</h1>
                           </div>
                           <div className="w-[78%] text-xl poppins-regular text-white text-justify block max-sm:text-lg">

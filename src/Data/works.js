@@ -3,23 +3,23 @@ const works = [
     title: "PTU 2024 calendar. ",
     link: "https://drive.google.com/drive/folders/1RtdnlpIox20ZVnC3kX2WPz4sQOWbAjYt?usp=drive_link",
     description:
-      "Under the guidance of the club's former secretary, Gokulnath, the official PTU 2024 calendar showcases captivating images captured during various university events and at notable locations on campus. Designed by Devanathan from the Prime Unit, who also serves as the club's Vice President, the calendar features stunning visuals that celebrate the spirit and essence of PTU. Each month highlights memorable moments and picturesque landscapes, offering a glimpse into the vibrant life and culture of the university community.",
+      "Under the guidance of the club's former secretary, Gokulnath Pugazhendi, the official PTU 2024 calendar showcases captivating images captured during various university events and at notable locations on campus. Designed by Devanathan from the Prime Unit, who also serves as the club's Vice President, the calendar features stunning visuals that celebrate the spirit and essence of PTU. Each month highlights memorable moments and picturesque landscapes, offering a glimpse into the vibrant life and culture of the university community.",
   },
   {
     title: "DC101: Adobe Photoshop Workshop. ",
     link: "https://drive.google.com/drive/folders/19qceIRgbImhkRSik_ogZUW9WZ2jjVZSx?usp=sharing",
     description:
-      "In December 2023, DC hosted a hands-on workshop on the Basics of Adobe Photoshop, organized by then-Secretary Gokulnath and Chief Yokeswary Anebarassane under the guidance of Dr. K. Sathiyamurthy. The workshop, featuring keynote speakers Kuhan, the current President, and Devanathan, the current Vice President, provided practical training to over 40 students. Participants learned the fundamentals of Photoshop through interactive sessions and hands-on projects. Access the documentation and workshop assets through the link provided below.",
+      "In December 2023, DC hosted a hands-on workshop on the Basics of Adobe Photoshop, organized by then-Secretary Gokulnath Pugazhendi and Chief Yokeswary Anebarassane under the guidance of Dr. K. Sathiyamurthy. The workshop, featuring keynote speakers Kuhan, the current President, and Devanathan, the current Vice President, provided practical training to over 40 students. Participants learned the fundamentals of Photoshop through interactive sessions and hands-on projects. Access the documentation and workshop assets through the link provided below.",
   },
   {
     title: "Reflections: Literary Club Newsletter Edition-1. ",
     link: "https://drive.google.com/drive/folders/1g5vJIelKZpk5oTCxAMXXPDp3s0lGtER_?usp=sharing",
     description:
-      "Reflections Edition 1: A Literary Club Newsletter, designed by Kuhan S, President, and guided by Gokulnath, the then-Secretary, showcases creative content contributed by members of the Literary Club. This edition explores themes on space design, featuring captivating articles and artwork, accompanied by seven different color palettes to enhance visual appeal. Dive into the world of creativity and imagination with Reflections Edition 1.",
+      "Reflections Edition 1: A Literary Club Newsletter, designed by Kuhan S, President, and guided by Gokulnath Pugazhendi, the then-Secretary, showcases creative content contributed by members of the Literary Club. This edition explores themes on space design, featuring captivating articles and artwork, accompanied by seven different color palettes to enhance visual appeal. Dive into the world of creativity and imagination with Reflections Edition 1.",
   },
   {
     title: "Fine Arts Club Magazine. ",
-    link: "https://drive.google.com/drive/folders/1SPTT9jDbnHKn6eDcZ9ptv9boqM7Qwi18?usp=sharing",
+    link: "https://heyzine.com/flip-book/e1350578e0.html",
     description:
       "The Fine Arts Club Magazine, meticulously crafted by a collaborative team including Devanathan, Vice President, Shrikanth from Prime Unit, and Kuhan, President, serves as a vibrant showcase of creative talent. This visually stunning publication celebrates the artistic endeavors of club members, featuring a diverse array of artwork, poetry, and creative writing. With its engaging design and captivating content, the magazine inspires and showcases the creative spirit within the university community.",
   },
@@ -39,7 +39,7 @@ const works = [
     title: "PTU Intro. ",
     link: "",
     description:
-      "Introducing a brand new university intro currently under production, directed by Gokulnath, Secretary, and featuring performances by Manoj Kumar with Ashwath, and Abhinavkumar from DC. The video editing is handled by the talented team from the DC Video Unit, including Abhinavkumar, Ashwath, and Kaushik, under the guidance of Gokulnath. Stay tuned for its release!",
+      "Introducing a brand new university intro currently under production, directed by Gokulnath Pugazhendi, Secretary, and featuring performances by Manoj Kumar with Ashwath, and Abhinavkumar from DC. The video editing is handled by the talented team from the DC Video Unit, including Abhinavkumar, Ashwath, and Kaushik, under the guidance of Gokulnath Pugazhendi. Stay tuned for its release!",
   },
   {
     title: "DC Pamphlet. ",
@@ -51,19 +51,19 @@ const works = [
     title: "PTU Website. ",
     link: "https://ptuniv.edu.in/",
     description:
-      "The PTU website's initial version was developed by Rupam Chirom, the club founder, and his team. Following the transition of the college into a university, Aadhitya, the former secretary, and his team took on the task of redesigning and developing the new frontend. Subsequently, Gokulnath, who served as the secretary, took over the responsibility of maintaining the website.",
+      "The PTU website's initial version was developed by Rupam Chirom, the club founder, and his team. Following the transition of the college into a university, Aadhitya, the former secretary, and his team took on the task of redesigning and developing the new frontend. Subsequently, Gokulnath Pugazhendi, who served as the secretary, took over the responsibility of maintaining the website.",
   },
   {
     title: "Placement Guide. ",
     link: "",
     description:
-      "The Placement Guide, an extensive documentation of the webinar on university placements conducted by Gokulnath, Secretary, and Krishna from DC, is currently undergoing design by Kuhan, President of DC. Stay tuned for the release of this valuable resource, tailored to enhance your understanding of placement processes and opportunities!",
+      "The Placement Guide, an extensive documentation of the webinar on university placements conducted by Gokulnath Pugazhendi, Secretary, and Krishna from DC, is currently undergoing design by Kuhan, President of DC. Stay tuned for the release of this valuable resource, tailored to enhance your understanding of placement processes and opportunities!",
   },
   {
     title: "Pattern Coding. ",
     link: "https://drive.google.com/drive/folders/1KhRlnpXLbCBDRoYOXgIAAM24LcZ2RgKN?usp=sharing",
     description:
-      "With the goal of enriching and nurturing the student community across all branches, the Pattern Coding Series was conceptualized and compiled by Gokulnath, Secretary of DC. This comprehensive series, aimed at enhancing coding skills, underwent meticulous proofreading by Krishna and Yokeswary Anebarassane, also members of DC.",
+      "With the goal of enriching and nurturing the student community across all branches, the Pattern Coding Series was conceptualized and compiled by Gokulnath Pugazhendi, Secretary of DC. This comprehensive series, aimed at enhancing coding skills, underwent meticulous proofreading by Krishna and Yokeswary Anebarassane, also members of DC.",
   },
   {
     title: "DC Portfolio. ",
