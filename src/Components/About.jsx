@@ -49,7 +49,7 @@ const About = () => {
           <a href="/#works" className="underline">
             works
           </a>
-          ...
+          .
         </h4>
       </div>
     </div>
