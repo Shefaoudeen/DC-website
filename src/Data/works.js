@@ -72,6 +72,12 @@ const works = [
       "The DC Portfolio Website stands as the first project of the Development Unit in the DC'24 slate. This innovative website, developed by Shefaoudeen from the Development Unit, in collaboration with Kuhan, President, showcases the club's creative prowess. Employing a unique and unconventional style, the website features vibrant basic colors that accentuate design elements, reflecting the club's commitment to creativity and innovation.",
   },
   {
+    title: "University Day 2024. ",
+    link: "https://ptu-designclub.netlify.app",
+    description:
+      "The DC Portfolio Website stands as the first project of the Development Unit in the DC'24 slate. This innovative website, developed by Shefaoudeen from the Development Unit, in collaboration with Kuhan, President, showcases the club's creative prowess. Employing a unique and unconventional style, the website features vibrant basic colors that accentuate design elements, reflecting the club's commitment to creativity and innovation.",
+  },
+  {
     title: "Explore More.",
     link: "https://ptuniv.edu.in/4c/design-club",
     description:
