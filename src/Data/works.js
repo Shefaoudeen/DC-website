@@ -75,7 +75,7 @@ const works = [
     title: "University Day 2024. ",
     link: "https://ptu-designclub.netlify.app",
     description:
-      "We just designed everything for this year's University Day :) Nothing More",
+      "We just designed everything for this year's University Day :)",
   },
   {
     title: "Explore More.",
