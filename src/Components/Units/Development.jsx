@@ -48,7 +48,7 @@ const Development = () => {
                   <span className="text-black poppins-medium">
                     Secretaries:{" "}
                   </span>
-                  7
+                  8
                 </h1>
                 <h1>
                   <span className="text-black poppins-medium">
@@ -63,7 +63,7 @@ const Development = () => {
                 <h1 className="text-gray-600">
                   The unit secretaries, comprising members from different
                   academic years, include Anish, Anupama, Cyrill, Sabarinathan,
-                  Harshit, and Dwaipayan
+                  Harshit,Shaswin and Dwaipayan
                 </h1>
               </div>
             </div>
