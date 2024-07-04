@@ -57,7 +57,7 @@ const Prime = () => {
             <div className="w-3/5 max-md:w-full">
               <div className="m-4">
                 <h1 className="text-gray-600 text-justify poppins-regular">
-                The unit secretaries, representing various years, include Devanathan B, Yogeshwaran, Uma Maheswari, Dhineshkumar, Devanathan, Shrikaanth, Chuniit, Pradheepraj, Mugesh Kumar, and Vishnu Vardhan.
+                The unit secretaries, representing various years, include Devanathan B, Uma Maheswari, Dhineshkumar, Shrikaanth, Chuniit, Pradheepraj, Mugesh Kumar, and Vishnu Vardhan.
                 </h1>
               </div>
             </div>
