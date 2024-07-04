@@ -63,7 +63,7 @@ const Development = () => {
                 <h1 className="text-gray-600">
                   The unit secretaries, comprising members from different
                   academic years, include Anish, Anupama, Cyrill, Sabarinathan,
-                  Harshit,Shaswin and Dwaipayan
+                  Harshit, Shaswin and Dwaipayan
                 </h1>
               </div>
             </div>
