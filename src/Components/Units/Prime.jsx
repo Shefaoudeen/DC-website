@@ -27,16 +27,16 @@ const Prime = () => {
       <div className="flex justify-center">
         <div className="w-[80%]" id="about">
           <div className="py-10">
-            <h1 className={`text-[${red}] poppins-bold text-4xl`}>
-              About
-            </h1>
+            <h1 className={`text-[${red}] poppins-bold text-4xl`}>About</h1>
           </div>
           <div className="flex w-[100%] max-md:flex-col text-xl">
             <div className="w-2/5 max-md:w-full">
               <div className="text-gray-600">
                 <h1>
-                  <span className="text-black poppins-medium">Unit President: </span>
-                  Yogeshwaran
+                  <span className="text-black poppins-medium">
+                    Unit President:{" "}
+                  </span>
+                  Pradeepraj S
                 </h1>
                 <h1>
                   <span className="text-black poppins-medium">Inception: </span>
@@ -44,20 +44,22 @@ const Prime = () => {
                 </h1>
                 <h1>
                   <span className="text-black poppins-medium">
-                  Secretaries:{" "}
+                    Secretaries:{" "}
                   </span>
                   9
                 </h1>
                 <h1>
                   <span className="text-black poppins-medium">Softwares: </span>
-                  Adobe Photoshop, Illustrator, and Spline
+                  Adobe Photoshop, Adobe Illustrator, and Spline
                 </h1>
               </div>
             </div>
             <div className="w-3/5 max-md:w-full">
               <div className="m-4">
                 <h1 className="text-gray-600 text-justify poppins-regular">
-                The unit secretaries, representing various years, include Devanathan B, Uma Maheswari, Dhineshkumar, Shrikaanth, Chuniit, Pradheepraj, Mugesh Kumar, and Vishnu Vardhan.
+                  The unit secretaries, representing various years, include
+                  Devanathan B, Yogeshwaran B, Uma Maheswari, Dhineshkumar,
+                  Shrikaanth, Chuniit, Mugesh Kumar, and Vishnu Vardhan.
                 </h1>
               </div>
             </div>
@@ -71,10 +73,24 @@ const Prime = () => {
           </div>
           <div className="flex w-[100%] poppins-regular text-xl max-md:flex-col md:gap-10 text-justify">
             <span className="text-gray-600 w-1/2 max-md:w-full">
-            As part of the DC 2024 slate, the club has been divided into three vital units, and PRIME holds a prominent position among them. At PRIME, we specialize in creating captivating visuals using Adobe Photoshop, Illustrator, and a variety of other design tools. Whether it's designing posters, banners, or any other project that can be accomplished using Adobe Photoshop, Illustrator, and more, PRIME ensures that each task is executed with precision and creativity, leaving a lasting impact through our impactful designs.
+              As part of the DC 2024 slate, the club has been divided into three
+              vital units, and PRIME holds a prominent position among them. At
+              PRIME, we specialize in creating captivating visuals using Adobe
+              Photoshop, Illustrator, and a variety of other design tools.
+              Whether it's designing posters, banners, or any other project that
+              can be accomplished using Adobe Photoshop, Illustrator, and more,
+              PRIME ensures that each task is executed with precision and
+              creativity, leaving a lasting impact through our impactful
+              designs.
             </span>
             <span className="text-gray-600 w-1/2 max-md:w-full">
-            With a dedicated focus on visual excellence, PRIME plays a crucial role within DC 2024. From concept to execution, PRIME takes charge of every project that involves visual design, ensuring that each piece is delivered with the utmost creativity and attention to detail. Our talented team of designers strives to bring out the best in every project, creating visually stunning and impactful designs that leave a lasting impression.
+              With a dedicated focus on visual excellence, PRIME plays a crucial
+              role within DC 2024. From concept to execution, PRIME takes charge
+              of every project that involves visual design, ensuring that each
+              piece is delivered with the utmost creativity and attention to
+              detail. Our talented team of designers strives to bring out the
+              best in every project, creating visually stunning and impactful
+              designs that leave a lasting impression.
             </span>
           </div>
         </div>
@@ -85,12 +101,23 @@ const Prime = () => {
             <h1 className={`text-[${red}] poppins-bold text-4xl`}>Works</h1>
           </div>
           <div className="flex w-[100%] poppins-regular text-xl max-md:flex-col text-justify gap-10">
-            <span className="text-gray-600 w-1/2 max-md:w-full">  
-            PRIME has been instrumental in designing various projects, including Rejouir-Pecofes, the university festival, Neura 2023, a symposium by the Department of Information Technology, and the PTU 2024 Calendar. Additionally, we have created magazines for various clubs, such as the Reflections Newsletter: Edition 1 for the Literary Club and the Fine Arts Club Magazine. Our portfolio also includes designing posters for university events, the DC Pamphlet, and much more.
+            <span className="text-gray-600 w-1/2 max-md:w-full">
+              PRIME has been instrumental in designing various projects,
+              including Rejouir-Pecofes, the university festival, Neura 2023, a
+              symposium by the Department of Information Technology, and the PTU
+              2024 Calendar. Additionally, we have created magazines for various
+              clubs, such as the Reflections Newsletter: Edition 1 for the
+              Literary Club and the Fine Arts Club Magazine. Our portfolio also
+              includes designing posters for university events, the DC Pamphlet,
+              and much more.
             </span>
 
             <span className="text-gray-600 w-1/2 max-md:w-full ">
-            Through our work, we aim to make a significant impact on every project we undertake. Whether it's designing visually stunning posters, creating captivating magazine layouts, or crafting memorable event materials, PRIME ensures that each project is executed with creativity, precision, and attention to detail.
+              Through our work, we aim to make a significant impact on every
+              project we undertake. Whether it's designing visually stunning
+              posters, creating captivating magazine layouts, or crafting
+              memorable event materials, PRIME ensures that each project is
+              executed with creativity, precision, and attention to detail.
             </span>
           </div>
         </div>
