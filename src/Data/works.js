@@ -55,7 +55,7 @@ const works = [
   },
   {
     title: "Placement Guide. ",
-    link: "",
+    link: "https://drive.google.com/drive/folders/1M-rcz0OahwQXo0QPuolNJgSvk2lNWAsR?usp=sharing",
     description:
       "The Placement Guide, an extensive documentation of the webinar on university placements conducted by Gokulnath Pugazhendi, Secretary, and Krishna from DC, is currently undergoing design by Kuhan, President of DC. Stay tuned for the release of this valuable resource, tailored to enhance your understanding of placement processes and opportunities!",
   },
@@ -77,6 +77,7 @@ const works = [
     description:
       "We just designed everything for this year's University Day :)",
   },
+
   {
     title: "Explore More.",
     link: "https://ptuniv.edu.in/4c/design-club",
