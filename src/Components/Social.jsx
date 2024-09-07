@@ -38,7 +38,7 @@ const Social = () => {
             open ? "rotate-[-225deg]" : null
           }  duration-[200ms] ease-linear`}
         >
-          <a href="https://www.instagram.com/designclub_ptu" target="_blank">
+          <a href="https://www.instagram.com/ptu_dc/" target="_blank">
             <FaInstagram className="rotate-[-135deg] text-6xl p-3 bg-violet-200 max-md:bg-yellow-400 hover:bg-[#ffdd18] rounded-full" />
           </a>
         </div>
