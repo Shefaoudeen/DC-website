@@ -87,11 +87,14 @@ const Footer = (props) => {
           </a>
         </h1>
       </div>
-      <a href="#nav" className="cursor-pointer">
-        <div className="z-[999] absolute rotate-180 cursor-pointer bottom-12 right-12 max-md:left-14  max-md:bottom-14 group">
-          <Arrow color="bg-[#005cef] group-hover:translate-y-10 cursor-pointer duration-100 ease-linear" />
+      <div className="z-[999] absolute rotate-180 cursor-pointer bottom-12 right-12 max-md:right-14  max-md:bottom-14 group max-md:w-fit">
+        <div className="w-fit">
+          <a href="#nav" className="cursor-pointer">
+            <Arrow color="bg-[#005cef] group-hover:translate-y-10 cursor-pointer duration-100 ease-linear" />
+          </a>
         </div>
-      </a>
+      </div>
+
       <Social />
     </div>
   );

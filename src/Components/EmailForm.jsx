@@ -11,6 +11,11 @@ const EmailForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    if (name == "" || email == "" || message == "") {
+      alert("Fill every fields :)");
+      return;
+    }
+
     const serviceId = "service_ik4qce8";
     const templateId = "template_qx539ke";
     const publicKey = "eb5-jLe-BS_5CL1Nf";
@@ -39,7 +44,7 @@ const EmailForm = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex flex-col gap-5  px-10 py-10 justify-center w-full items-center"
+      className="flex flex-col relative gap-5  px-10 py-10 justify-center w-full items-center"
     >
       <input
         type="text"
@@ -67,7 +72,7 @@ const EmailForm = () => {
       />
       <button
         type="submit"
-        className="bg-[#ff1f25] cursor-pointer py-2 rounded-xl w-fit px-4 text-xl poppins-medium text-white"
+        className="bg-[#ff1f25] cursor-pointer py-2 rounded-xl w-fit px-4 text-xl poppins-medium text-white z-20"
       >
         Send
       </button>
