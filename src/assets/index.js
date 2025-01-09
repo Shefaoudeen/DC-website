@@ -7,6 +7,7 @@ import UpArrow from "./arrow-white-long.svg";
 import VideoForBox from "./MainVideo.mp4";
 import Logo from "./logo.png";
 import DC24 from "./dc24.png";
+import DC25 from "./dc25.png";
 import Yogeshwaran from "./Yogeshwaran.png";
 import Sathiyamurthy from "./Sathiyamurthy.png";
 import Kuhan from "./Kuhan.png";
@@ -23,6 +24,7 @@ export {
   VideoForBox,
   Logo,
   DC24,
+  DC25,
   Yogeshwaran,
   Sathiyamurthy,
   Kuhan,

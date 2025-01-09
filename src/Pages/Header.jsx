@@ -1,6 +1,6 @@
 import React from "react";
 import Hamburger from "../Components/Hamburger";
-import { DC24, Logo } from "../assets";
+import { DC25, Logo } from "../assets";
 import { Link } from "react-router-dom";
 import "../fonts.css";
 
@@ -16,7 +16,7 @@ const Header = () => {
 
         <div>
           <a href="https://ptu-designclub.netlify.app">
-            <img src={DC24} className="w-[100px]" />
+            <img src={DC25} className="w-[100px]" />
           </a>
         </div>
 
