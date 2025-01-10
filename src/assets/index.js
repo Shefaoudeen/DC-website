@@ -11,6 +11,9 @@ import DC25 from "./dc25.png";
 import Yogeshwaran from "./Yogeshwaran.png";
 import Sathiyamurthy from "./Sathiyamurthy.png";
 import Kuhan from "./Kuhan.png";
+import Pradheep from "./Pradheep.png";
+import Sreeraam from "./Sreeraam.png";
+import Viknesh from "./Viknesh.png";
 import Devanathan from "./Devanathan.png";
 import Rocket from "./Rocket.png"
 
@@ -30,4 +33,7 @@ export {
   Kuhan,
   Devanathan,
   Rocket,
+  Pradheep,
+  Sreeraam,
+  Viknesh
 };

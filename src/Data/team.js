@@ -1,4 +1,4 @@
-import { Sathiyamurthy, Yogeshwaran, Kuhan, Devanathan, Rocket } from "../assets";
+import { Sathiyamurthy, Yogeshwaran, Kuhan, Devanathan, Rocket, Pradheep, Sreeraam, Viknesh } from "../assets";
 
 const team = [
   {
@@ -25,19 +25,19 @@ const team = [
   },
   {
     id: 3,
-    picture: Kuhan,
-    name: "Kuhan",
+    picture: Pradheep,
+    name: "Pradheepraj",
     designation: "President",
     unit: "",
-    email: "skuhan@ptuniv.edu.in",
-    phone: "8438716946",
-    linkedIn: "",
+    email: "pradheepraj.srlvaradje875@ptuniv.edu.in",
+    phone: "6379166875",
+    linkedIn: "www.linkedin.com/in/pradheepraj",
     github: "",
   },
   {
     id: 4,
-    picture: Yogeshwaran,
-    name: "Yogeshwaran",
+    picture: Sreeraam,
+    name: "Sreeraam",
     designation: "Vice President",
     unit: "",
     email: "yogeshwaran.b899@ptuniv.edu.in",
@@ -47,8 +47,8 @@ const team = [
   },
   {
     id: 5,
-    picture: Devanathan,
-    name: "Devanathan",
+    picture: Viknesh,
+    name: "Viknesh",
     designation: "Vice President",
     unit: "",
     email: "bdevanathan@ptuniv.edu.in",
