@@ -5,6 +5,7 @@ import Units from "../Components/Units";
 import Works from "../Components/Works";
 import Team from "../Components/Team";
 import Footer from "./Footer";
+import ExCrew from "../Components/ExCrew";
 
 const Homepage = () => {
   return (
@@ -14,6 +15,7 @@ const Homepage = () => {
       <Units />
       <Works />
       <Team />
+      <ExCrew />
       <Footer />
     </>
   );

@@ -58,4 +58,33 @@ const team = [
   },
 ];
 
-export { team };
+const exCrew = [
+
+  {
+    id: 1,
+    picture: Rocket,
+    name: "Yokeswary Anebarassane",
+    designation: "Chief",
+  },
+  {
+    id: 2,
+    picture: Kuhan,
+    name: "Kuhan",
+    designation: "President",
+  },
+  {
+    id: 3,
+    picture: Devanathan,
+    name: "Devanathan",
+    designation: "Vice President",
+  },
+  {
+    id: 4,
+    picture: Yogeshwaran,
+    name: "Yogeshwaran",
+    designation: "Vice President",
+  },
+
+];
+
+export { team, exCrew };
