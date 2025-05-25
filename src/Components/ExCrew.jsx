@@ -50,7 +50,7 @@ const ExCrew = () => {
   }, [isHovered]);
 
   return (
-    <div className="bg-[#ff1f25] select-none w-full flex flex-col justify-center items-center pt-20 pb-20 z-50 relative max-w-screen">
+    <div className="bg-[#ff1f25] select-none w-full flex flex-col justify-center items-center pt-20 pb-20 z-20 relative max-w-screen">
       <h2 className="text-4xl font-bold text-white mb-10">DC 24' Crew</h2>
       
       <div
