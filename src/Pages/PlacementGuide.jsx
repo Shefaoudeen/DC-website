@@ -74,7 +74,7 @@ const PlacementGuide = () => {
         <div className="absolute top-0 right-0 w-72 h-72 lg:w-96 lg:h-96 bg-yellow-400 rounded-full transform translate-x-1/2 -translate-y-1/2 opacity-80"></div>
         <div className="absolute bottom-0 left-0 w-64 h-64 lg:w-80 lg:h-80 bg-red-500 transform -translate-x-1/2 translate-y-1/2 opacity-80" style={{ clipPath: 'polygon(50% 0%, 0% 100%, 100% 100%)' }}></div>
         
-        <div className="relative z-10 container mx-auto px-4 pt-16 lg:pt-32 pb-16 min-h-screen flex flex-col justify-center">
+        <div className="relative z-10 container mx-auto px-4 md:px-32 pt-16 lg:pt-32 pb-16 min-h-screen flex flex-col justify-center">
           <div className={`transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
            <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-gray-900 mb-8 lg:mb-12 leading-none">
             {typedText}
@@ -89,8 +89,8 @@ const PlacementGuide = () => {
             </div>
           </div>
         </div>
+        <div className='min-w-full min-h-[100px] absolute z-10 bg-gradient-to-t from-white to-transparent -bottom-0 left-0'></div>
       </div>
-
 
       <div className="bg-white py-16 lg:py-20">
         <div className="container mx-auto px-4">
@@ -151,7 +151,7 @@ const PlacementGuide = () => {
         </div>
       </div>
 
-      <div className="bg-gray-50 py-16 lg:py-20">
+      <div className="bg-gray-50 py-16 md:px-20 lg:py-20">
         <div className="container mx-auto px-4" id="guides">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="space-y-4 lg:space-y-6 order-2 lg:order-1">
