@@ -10,6 +10,7 @@ import { useState } from "react";
 import { Logo } from "./assets";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import PlacementGuide from "./Pages/PlacementGuide.jsx";
 
 export default function App() {
   Aos.init({
@@ -44,7 +45,8 @@ export default function App() {
             <Route path="/units" element={<Units />} />
             <Route path="/prime" element={<Prime />} />
             <Route path="/video" element={<Video />} />
-            <Route path="/development" element={<Development />} />
+            <Route path="/development" element={<Development />}/>
+            <Route path="/guides" element={<PlacementGuide />}/>
           </Route>
         </Routes>
       )}
