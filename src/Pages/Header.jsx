@@ -32,6 +32,11 @@ const Header = () => {
                 Works
               </button>
             </a>
+            <a href="/guides">
+              <button className=" px-4 py-2 hover:bg-yellow-300 delay-100 transition-colors ease-linear hover:text-white rounded-lg">
+                Placement Guides
+              </button>
+            </a>
             <a href="/#footer">
               <button className=" px-4 py-2 hover:bg-[#ff1f25] delay-100 transition-colors ease-linear hover:text-white rounded-lg">
                 Contact us
