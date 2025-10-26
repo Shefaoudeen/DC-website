@@ -79,7 +79,7 @@ const Footer = (props) => {
           </a>{" "}
           |{" "}
           <a
-            href="https://www.linkedin.com/in/kuhan-s-a28328201/"
+            href="https://www.linkedin.com/in/thisiskuhan/"
             target="_blank"
             className="hover:underline"
           >
