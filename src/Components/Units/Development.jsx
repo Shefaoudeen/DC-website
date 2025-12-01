@@ -38,7 +38,7 @@ const Development = () => {
                   <span className="text-black poppins-medium">
                     Unit President:{" "}
                   </span>
-                  Shefaoudeen
+                  Sudharsan
                 </h1>
                 <h1>
                   <span className="text-black poppins-medium">Inception: </span>
@@ -48,7 +48,7 @@ const Development = () => {
                   <span className="text-black poppins-medium">
                     Secretaries:{" "}
                   </span>
-                  8
+                  2
                 </h1>
                 <h1>
                   <span className="text-black poppins-medium">
@@ -62,8 +62,7 @@ const Development = () => {
               <div className="m-4">
                 <h1 className="text-gray-600">
                   The unit secretaries, comprising members from different
-                  academic years, include Anish, Anupama, Cyrill, Sabarinathan,
-                  Harshit, Shaswin and Dwaipayan
+                  academic years, include Naveen VJ, Sreeharan.
                 </h1>
               </div>
             </div>

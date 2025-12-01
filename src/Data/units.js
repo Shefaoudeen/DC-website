@@ -6,7 +6,7 @@ const units = [
     division: "PRIME",
     description1:
       "At PRIME, our speciality lies in creating captivating visuals with Adobe Photoshop, Illustrator, and much more. From projects such as ",
-    works: "Rejouir, Neura, Reflections Newsletter and PTU 2024 Calendar",
+    works: "Rejouir, Neura, Reflections Newsletter and PTU 2024 & 2025 Calendar, Placement Guide",
     description2:
       ", we aim to make a lasting impact on frames with impactful designs.",
     motto: "Think, Design, Innovate!",

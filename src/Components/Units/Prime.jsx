@@ -36,7 +36,7 @@ const Prime = () => {
                   <span className="text-black poppins-medium">
                     Unit President:{" "}
                   </span>
-                  Pradeepraj S
+                  Ashwin M
                 </h1>
                 <h1>
                   <span className="text-black poppins-medium">Inception: </span>
@@ -46,7 +46,7 @@ const Prime = () => {
                   <span className="text-black poppins-medium">
                     Secretaries:{" "}
                   </span>
-                  9
+                  4
                 </h1>
                 <h1>
                   <span className="text-black poppins-medium">Softwares: </span>
@@ -58,8 +58,7 @@ const Prime = () => {
               <div className="m-4">
                 <h1 className="text-gray-600 text-justify poppins-regular">
                   The unit secretaries, representing various years, include
-                  Devanathan B, Yogeshwaran B, Uma Maheswari, Dhineshkumar,
-                  Shrikaanth, Chuniit, Mugesh Kumar, and Vishnu Vardhan.
+                  Vishnu Vardan, Yugeshwar, Jeishwanth, Jersisha.
                 </h1>
               </div>
             </div>

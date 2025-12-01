@@ -46,7 +46,7 @@ const Video = () => {
                   <span className="text-black poppins-medium">
                   Secretaries:{" "}
                   </span>
-                  4
+                  2
                 </h1>
                 <h1>
                   <span className="text-black poppins-medium">Softwares: </span>
@@ -57,7 +57,7 @@ const Video = () => {
             <div className="w-3/5 max-md:w-full">
               <div className="m-4">
                 <h1 className="text-gray-600 text-justify poppins-regular">
-                The unit secretaries, comprising members from different academic years, include Sreeraam, Ashwath Sundhar, and Kaushik Kumar.
+                The unit secretaries, comprising members from different academic years, include Mohammed Akmal, Lokesh.
                 </h1>
               </div>
             </div>
